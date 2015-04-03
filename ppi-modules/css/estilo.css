@@ -1,0 +1,25 @@
+label,  input:not([type="submit"]) {
+	display: block;
+	float: left;
+}
+
+label {	
+	text-align: right;
+	width: 35px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+fieldset {
+	border: solid 1px #000;
+        display:inline-block;
+}
+
+br {
+	clear: left;
+} 
+
+input:focus:not([type="submit"]){
+    background-color: greenyellow;
+}    
+
