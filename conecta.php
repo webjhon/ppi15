@@ -10,5 +10,3 @@ $conecta = mysql_connect($host_mysql,$user_mysql,$password_mysql) or print(mysql
 
 mysql_select_db($banco_mysql,$conecta) or print(mysql_error());
 
-
-  
