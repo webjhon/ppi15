@@ -1,0 +1,4 @@
+Basta clicar com o botão direito no arquivo a ser atualizado (no lado onde aparecem as commits) e escolher a opção DISCARD CHANGES. Isso é útil pois sempre ao alterar partes do projeto usando netbeans, ele grava registros das operações feitas mesmo que não salvas, e isso acaba se tornando chato e gerando commits desnecessárias.
+
+Criei este arquivo apeans para gerar uma commit com ele, e irei colocar esse mesmo texto na commit, assim fica mais fácil quando esquecermos de como cancelar uma commit é só olhar o histórico das mesmas.
+
