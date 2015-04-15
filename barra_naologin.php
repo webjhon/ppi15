@@ -52,7 +52,7 @@
                     
 					<ul class="nav navbar-nav navbar-form navbar-right">
 						<a>
-                            <button type="submit" class="btn btn-default">
+                            <button type="submit" class="btn btn-default" name="botao_logarecadastrar">
                                 Faça login ou cadastre-se
                             </button>
 				        </a>

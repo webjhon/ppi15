@@ -2,3 +2,7 @@
 	width: 45%;
 	float: right;
 }
+
+#div_cadastro_login {
+    display: none;
+}
