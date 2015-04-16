@@ -3,5 +3,8 @@ $(document).ready(function(){
         $("#div_cadastro_login").show();
         $('html,body').stop().animate({scrollTop: $("#div_cadastro_login").offset().top}, 2000);
     });
-       
+/*$(':input').change(function(){    
+       alert("testando");
+    }); */    
 });
+
