@@ -65,11 +65,21 @@
   <label class="col-md-4 control-label" for="login_envia"></label>
   <div class="col-md-4">
     <button id="login_envia" name="login_envia" class="btn btn-primary">Entrar</button>
+	<button id="botao_cadastro" type="submit" name="botao_cadastro" class="btn btn-primary">Não possuo cadastro</button>
   </div>
 </div>
 
 
 
+
+<!-- Button Não tenho cadastro azul-->
+<!--<div class="form-group">
+  <label class="col-md-4 control-label" for="botao_cadastro"></label>
+  <div class="col-md-4">
+    <button id="botao_cadastro" type="submit" name="botao_cadastro" class="btn btn-primary">Não possuo cadastro</button>
+  </div>
+</div>
+-->
 
 
 
@@ -77,26 +87,6 @@
 </fieldset>
 </form>
 </div>
-
-
-<!-- Button Cadastro azul-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="botao_cadastro"></label>
-  <div class="col-md-4">
-    <button id="botao_cadastro" type="submit" name="botao_cadastro" class="btn btn-primary">Não possuo cadastro</button>
-  </div>
-</div>
-
-
-<!-- Button Cadastro padrao-->
-<!--<ul class="nav navbar-nav navbar-form navbar-right">
-	<a>
-        <button type="submit" class="btn btn-default" name="botao_cadastro">
-            Faça login ou cadastre-se
-        </button>
-    </a>
-						
-</ul>-->
 
 
 </body>

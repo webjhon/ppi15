@@ -1,6 +1,13 @@
 #div_cadastro_login {
     display: none;
 }
+
+#botao_cadastro{
+	float: right;
+	background-color: #33ab35;
+	font-weight: bold;
+}
+
 #div_cadastro{
     display:none;
 }
