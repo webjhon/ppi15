@@ -6,6 +6,9 @@
 #div_cadastro_login {
     display: none;
 }
+#div_cadastro{
+    display:none;
+}
 
 input:not([type="submit"]):focus{
     background-color: greenyellow;

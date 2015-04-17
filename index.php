@@ -176,7 +176,12 @@
         <?php
             include './login_cadastro.php';
         ?>
-    </div>    
+    </div>
+    <div id="div_cadastro">
+        <?php
+            include './cadastro.php';
+        ?>
+    </div>
  </div>
 </body>
 </html>
