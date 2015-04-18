@@ -12,6 +12,7 @@ $(document).ready(function(){
     });
 /*$(':input').change(function(){    
        alert("testando");
-    }); */    
+    }); */ 
+    //TesteTesteTeste
 });
 
