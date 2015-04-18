@@ -65,7 +65,7 @@
   <label class="col-md-4 control-label" for="login_envia"></label>
   <div class="col-md-4">
     <button id="login_envia" name="login_envia" class="btn btn-primary">Entrar</button>
-	<button id="botao_cadastro" type="submit" name="botao_cadastro" class="btn btn-primary">Não possuo cadastro</button>
+	
   </div>
 </div>
 
@@ -86,6 +86,7 @@
 
 </fieldset>
 </form>
+    <button id="botao_cadastro" type="submit" name="botao_cadastro" class="btn btn-primary">Não possuo cadastro</button>
 </div>
 
 
