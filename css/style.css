@@ -6,15 +6,21 @@
 	float: right;
 	background-color: #33ab35;
 	font-weight: bold;
-        
-        
-        
 }
+
+#botao_login{
+	float: right;
+	background-color: #33ab35;
+	font-weight: bold;
+}
+
 
 #div_cadastro{
     display:none;
 }
 
 input:not([type="submit"]):focus{
-    background-color: greenyellow;
+	color:#fff;
+	font-weight: bold;
+    background-color: #33ab35;
 }

@@ -47,7 +47,7 @@
 						<label class="col-md-4 control-label" for="cad_login">Login</label>  
 						<div class="col-md-5">
 							<input id="cad_login" name="cad_login" placeholder="nome de login" class="form-control input-md" required="" type="text">
-							<span class="help-block">Insira um nome de usuário</span>  
+							<span class="help-block">Insira seu login</span>  
 						</div>
 					</div>
 					
@@ -56,40 +56,26 @@
 						<label class="col-md-4 control-label" for="cad_passwd">Insira uma senha</label>
 						<div class="col-md-5">
 							<input id="cad_passwd" name="cad_passwd" placeholder="Senha" class="form-control input-md" required="" type="password">
-							<span class="help-block">Informe uma senha (8 caracteres)</span>
+							<span class="help-block">Informe sua senha (8 caracteres)</span>
 						</div>
-						</div>
-						
-						<!-- Button Entrar-->
-						<div class="form-group">
+					</div>
+					
+					<!-- Button Entrar-->
+					<div class="form-group">
 						<label class="col-md-4 control-label" for="login_envia"></label>
 						<div class="col-md-4">
-						<button id="login_envia" name="login_envia" class="btn btn-primary">Entrar</button>
-						<a id="botao_cadastro" class="btn btn-primary">Não possuo cadastro</a>
-						
+							<button id="login_envia" name="login_envia" class="btn btn-primary">Entrar</button>
+							<a id="botao_cadastro" class="btn btn-primary">Não possuo cadastro</a>
+							
 						</div>
-						</div>
-						
-						
-						
-						
-						<!-- Button Não tenho cadastro azul-->
-						<!--<div class="form-group">
-						<label class="col-md-4 control-label" for="botao_cadastro"></label>
-						<div class="col-md-4">
-						<button id="botao_cadastro" type="submit" name="botao_cadastro" class="btn btn-primary">Não possuo cadastro</button>
-						</div>
-						</div>
-						-->
-						
-						
-						
-						
-						</fieldset>
-						</form>
-						
-						</div>
-						
-						
+					</div>
+					
+					
+				</fieldset>
+			</form>
+			
+		</div>
+		
+		
 	</body>
 </html>						
