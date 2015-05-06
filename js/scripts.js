@@ -10,6 +10,8 @@ $(document).ready(function(){
         $("#div_cadastro").show("slow");
         $('html,body').stop().animate({scrollTop: $("#div_cadastro").offset().top}, 2000);
     });
+    
+    //APAGAR ESTE CÓDIGO
 /*$(':input').change(function(){    
        alert("testando");
     }); */ 
