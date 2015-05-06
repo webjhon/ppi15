@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="utf-8">
-  <title>Logicando - feito com Bootstrap</title>
+  <title>Logicando - feito  para evoluir</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -38,11 +38,7 @@
 		
 		<div class="col-md-12 column" align="center">
 			<img src="img/logo_400.png"> <!-- class="img-circle" alt="600x600" -->
-			<h1 class="text-center">
-				LOGICANDO
-			</h1>
-            <h3>A lógica educando
-            </h3>
+			
 		</div>
 		
 	</div>
