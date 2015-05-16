@@ -8,7 +8,7 @@
 				<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li>
-							<a href="#">O projeto</a>
+							<a href="#" id="link_projeto">O projeto</a>
 						</li>
 						<li>
 							<a href="#">Mídia</a>

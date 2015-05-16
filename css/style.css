@@ -24,3 +24,8 @@ input:not([type="submit"]):focus{
 	font-weight: bold;
     background-color: #33ab35;
 }
+#pagina_projeto{
+    display:none;
+}
+
+

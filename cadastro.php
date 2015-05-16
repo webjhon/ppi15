@@ -104,17 +104,14 @@
 						<label class="col-md-4 control-label" for="cad_envia"></label>
 						<div class="col-md-4">
 							<button id="cad_envia" name="cad_envia" class="btn btn-primary">Cadastrar</button>
-							<a id="botao_login" class="btn btn-primary">Já tenho login</a>
+                                                        <a id="botao_login" class="btn btn-primary">Já tenho login</a>
+							
 						</div>
 						
 					</div>
 					
 				</fieldset>
 			</form>
-		</div>
-		
-		
-		
-		
+            	</div>
 	</body>
 </html>

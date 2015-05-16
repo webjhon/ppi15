@@ -52,8 +52,13 @@
          else
              include 'barra_naologin.php';
         ?>
-	
-	<div class="row clearfix">
+    <div id="pagina_projeto">
+        <?php
+            include './projeto.php';
+        ?>
+    </div>
+    <div id="index_content">
+        <div class="row clearfix">
 		<div class="col-md-12 column">
 			<div class="carousel slide" id="carousel-605077">
 				<ol class="carousel-indicators">
@@ -168,6 +173,7 @@
 			</p>
 		</div>
 	</div>
+    </div>
 	
 	<div id="div_cadastro_login">
         <?php
