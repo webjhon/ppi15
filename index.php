@@ -57,6 +57,11 @@
             include './projeto.php';
         ?>
     </div>
+        <div id="pagina_midia">
+        <?php
+            include './midia.php';
+        ?>
+    </div>
     <div id="index_content">
         <div class="row clearfix">
 		<div class="col-md-12 column">

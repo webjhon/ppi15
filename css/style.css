@@ -27,5 +27,8 @@ input:not([type="submit"]):focus{
 #pagina_projeto{
     display:none;
 }
+#pagina_midia{
+    display:none;
+}
 
 
