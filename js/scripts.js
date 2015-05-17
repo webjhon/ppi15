@@ -20,8 +20,6 @@ $(document).ready(function(){
     
 //Clicando em PROJETO, o conteúdo incial da homepage some, e da espaço ao conteúdo da aba PROJETO.    
     $("#link_projeto").click(function(){
-        $("#div_cadastro_login").hide("slow");
-        $("#div_cadastro").hide("slow");
         $("#index_content").hide("slow");  
         $("#pagina_midia").hide("slow");
         $("#pagina_projeto").show("slow");
@@ -33,8 +31,6 @@ $("#home_page").click(function(){
 });
 
 $("#link_midia").click(function(){
-   $("#div_cadastro_login").hide("slow");
-   $("#div_cadastro").hide("slow");
    $("#index_content").hide("slow");
    $("#pagina_projeto").hide("slow");
    $("#pagina_midia").show("slow");
