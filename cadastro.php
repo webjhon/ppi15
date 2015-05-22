@@ -36,7 +36,7 @@
 		
 		
 		<div id="form_cadastro">
-			<form class="form-horizontal">
+			<form class="form-horizontal" method="POST">
 				<fieldset>
 					
 					<!-- Nome do formulário -->
@@ -103,7 +103,7 @@
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="cad_envia"></label>
 						<div class="col-md-4">
-							<button id="cad_envia" name="cad_envia" class="btn btn-primary">Cadastrar</button>
+                                                    <button id="cad_envia" name="cad_envia" class="btn btn-primary" type="submit">Cadastrar</button>
                                                         <a id="botao_login" class="btn btn-primary">Já tenho login</a>
 							
 						</div>
@@ -113,5 +113,8 @@
 				</fieldset>
 			</form>
             	</div>
+        <?php
+            require_once('./GravarDados.php');
+        ?>
 	</body>
 </html>

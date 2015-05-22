@@ -3,12 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/ppi15/barra_login.php</file>
-            <file>file:/C:/xampp/htdocs/ppi15/index.php</file>
             <file>file:/C:/xampp/htdocs/ppi15/css/style.css</file>
-            <file>file:/C:/xampp/htdocs/ppi15/js/scripts.js</file>
-            <file>file:/C:/xampp/htdocs/ppi15/projeto.php</file>
+            <file>file:/C:/xampp/htdocs/ppi15/cadastro.php</file>
+            <file>file:/C:/xampp/htdocs/ppi15/login_cadastro.php</file>
+            <file>file:/C:/xampp/htdocs/ppi15/index.php</file>
+            <file>file:/C:/xampp/htdocs/ppi15/validarLogin.php</file>
             <file>file:/C:/xampp/htdocs/ppi15/barra_naologin.php</file>
+            <file>file:/C:/xampp/htdocs/ppi15/validar_sessao.php</file>
+            <file>file:/C:/xampp/htdocs/ppi15/barra_login.php</file>
+            <file>file:/C:/xampp/htdocs/ppi15/GravarDados.php</file>
         </group>
     </open-files>
 </project-private>

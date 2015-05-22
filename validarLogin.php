@@ -1,18 +1,22 @@
 <?php
+
 require_once ('./conecta.php');
 
-    $login = isset($_POST['login']) ? $_POST['login'] : '';
-    $senha = isset($_POST['senha']) ? $_POST['senha'] : '';
-    
-    if(isset($_POST['enviar'])){
-    $buscar = "SELECT * FROM usuarios  WHERE login = '$login' and senha = '$senha'";
+$login = isset($_POST['cad_login']) ? $_POST['cad_login'] : '';
+$senha = isset($_POST['cad_passwd']) ? $_POST['cad_passwd'] : '';
+
+if (isset($_POST['login_envia'])) {
+    $buscar = "SELECT * FROM usuario  WHERE login = '$login' and senha = '$senha'";
     $verifica = mysql_query($buscar);
-    if(mysql_num_rows($verifica)<=0){
+    if (mysql_num_rows($verifica) <= 0) {
         echo '<script> alert("Login ou Senha incorreto")</script>';
-    }
-    else {
-        setcookie("login",$login,time()+3600);
+    } else {
+        //Aqui devo fazer a sessão
+        
+        session_start();
+        $registro = mysql_fetch_array($verifica);
+        $_SESSION["nome_usuario"] = $registro['nome_usuario'];
+        $_SESSION['cod_usuario'] = $registro['cod_usuario'];
         header("Location: index.php");
     }
-    
 }

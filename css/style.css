@@ -31,4 +31,7 @@ input:not([type="submit"]):focus{
     display:none;
 }
 
-
+#helper{
+    float: right;
+    position: fixed;
+}

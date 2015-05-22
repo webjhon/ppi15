@@ -36,7 +36,7 @@
 		
 		
 		<div id="form_login">
-			<form class="form-horizontal">
+                    <form class="form-horizontal" method="POST" action="validarLogin.php">
 				<fieldset>
 					
 					<!-- Form Name -->
@@ -75,7 +75,8 @@
 			</form>
 			
 		</div>
-		
+            
+           
 		
 	</body>
 </html>						
