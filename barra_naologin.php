@@ -13,9 +13,6 @@
 						<li>
 							<a href="#" id="link_midia">Mídia</a>
 						</li>
-						<li>
-							<a href="doacao.php" id="link_doacao">Doação</a>
-						</li>
 						<li class="dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
