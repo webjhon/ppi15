@@ -53,7 +53,7 @@
 					<ul class="nav navbar-nav navbar-form navbar-right">
 						<a>
                             <button type="submit" class="btn btn-default">
-                                Bem vindo <?=$_COOKIE['login'];?>
+                                Bem vindo <?=$_SESSION['nome_usuario'];?>
                             </button>
 				        </a>
 						
