@@ -38,20 +38,21 @@
 		
 		<div class="col-md-12 column" align="center">
 			<img src="img/logo_400.png"> <!-- class="img-circle" alt="600x600" -->
-			
 		</div>
 		
 	</div>
+
     <?php
-     $logado=false;
-         if(isset($_COOKIE['login']))
-             $logado=true;
+		$logado=false;
+			if(isset($_COOKIE['login']))
+				$logado=true;
          
-         if($logado)
-             include 'barra_login.php';
-         else
-             include 'barra_naologin.php';
-        ?>
+        if($logado)
+			include 'barra_login.php';
+        else
+            include 'barra_naologin.php';
+    ?>
+	
     <div id="pagina_projeto">
         <?php
             include './projeto.php';
@@ -62,6 +63,7 @@
             include './midia.php';
         ?>
     </div>
+	
     <div id="index_content">
         <div class="row clearfix">
 		<div class="col-md-12 column">
@@ -98,7 +100,7 @@
 						</div>
 					</div>
 					<div class="item">
-						<img alt="" src="http://lorempixel.com/1600/500/sports/3">
+						<img alt="" src="img/apple-touch-icon-144-precomposed.png">
 						<div class="carousel-caption">
 							<h4>
 								Third Thumbnail label
@@ -120,7 +122,7 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<img alt="300x200" src="http://lorempixel.com/600/200/people">
+						<img alt="300x200" src="img/apple-touch-icon-144-precomposed.png">
 						<div class="caption">
 							<h3>
 								Thumbnail label
@@ -136,7 +138,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<img alt="300x200" src="http://lorempixel.com/600/200/city">
+						<img alt="300x200" src="img/apple-touch-icon-144-precomposed.png">
 						<div class="caption">
 							<h3>
 								Thumbnail label
@@ -152,7 +154,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<img alt="300x200" src="http://lorempixel.com/600/200/sports">
+						<img alt="300x200" src="img/apple-touch-icon-144-precomposed.png">
 						<div class="caption">
 							<h3>
 								Thumbnail label
@@ -167,17 +169,10 @@
 					</div>
 				</div>
 			</div>
-			<h2>
-				Heading
-			</h2>
-			<p>
-				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-			</p>
-			<p>
-				<a class="btn" href="#">View details »</a>
-			</p>
+			
+			
+			</div>
 		</div>
-	</div>
     </div>
 	
 	<div id="div_cadastro_login">
