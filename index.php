@@ -1,7 +1,8 @@
 <?php require_once('./validar_sessao.php'); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
+    
+	<head>
         <meta charset="utf-8">
         <title>Logicando - feito  para evoluir</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -95,7 +96,7 @@
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img alt="" src="http://lorempixel.com/1600/500/sports/3">
+                                    <img alt="" src="img/carrossel_1.png">
                                     <div class="carousel-caption">
                                         <h4>
                                             Third Thumbnail label
@@ -112,64 +113,6 @@
 
                 <BR>
 
-                <div class="row clearfix">
-                    <div class="col-md-12 column">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="thumbnail">
-                                    <img alt="300x200" src="http://lorempixel.com/600/200/people">
-                                    <?php
-                                    if ($logado) {
-                                        ?>
-                                        <div class="caption">
-                                            <h3>
-                                               TESTE
-                                            </h3>
-                                            <p>
-                                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                                            </p>
-                                            <p>
-                                            <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-                                            </p>
-                                        </div>
-                                    <?php } ?>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="thumbnail">
-                                    <img alt="300x200" src="http://lorempixel.com/600/200/city">
-                                    <div class="caption">
-                                        <h3>
-                                            Thumbnail label
-                                        </h3>
-                                        <p>
-                                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                                        </p>
-                                        <p>
-                                            <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="thumbnail">
-                                    <img alt="300x200" src="http://lorempixel.com/600/200/sports">
-                                    <div class="caption">
-                                        <h3>
-                                            Thumbnail label
-                                        </h3>
-                                        <p>
-                                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                                        </p>
-                                        <p>
-                                            <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
             <div id="div_cadastro_login">
