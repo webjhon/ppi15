@@ -8,13 +8,13 @@
 				<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li>
-							<a href="projeto.php" id="link_projeto">O projeto</a>
+							<a href="#" id="link_projeto">O projeto</a>
 						</li>
 						<li>
-							<a href="midia.php" id="link_midia">Mídia</a>
+							<a href="#" id="link_midia">Mídia</a>
 						</li>
 						<li>
-							<a href="doacao.php" id="link_doacao">Doação</a>
+							<a href="#" id="link_doacao">Doação</a>
 						</li>
 						<li class="dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
@@ -40,6 +40,7 @@
 								</li>
 							</ul>
 						</li>
+						
 					</ul>
                     
                         <!-- #############   CAMPO DE PESQUISA DENTRO DO MENU   #############
@@ -61,6 +62,7 @@
 				        </a>
 						
 					</ul>
+					
 				</div>
 				
 			</nav>
