@@ -44,6 +44,15 @@ $("#link_midia").click(function(){
 $("#helper").click(function(){
       $('html, body').animate({scrollTop:0}, 'slow');
 });
+
+//Ai clicar no botão MÍDIA, a página da espaço para o conteúdo de mídia ser apresentado.
+$("#link_doacao").click(function(){
+   $("#div_cadastro_login").hide("slow");
+   $("#div_cadastro").hide("slow");
+   $("#index_content").hide("slow");
+   $("#pagina_projeto").hide("slow");
+   $("#pagina_doacao").show("slow");
+});
     //APAGAR ESTE CÓDIGO
 /*$(':input').change(function(){    
        alert("testando");

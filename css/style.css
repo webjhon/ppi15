@@ -31,6 +31,10 @@ input:not([type="submit"]):focus{
     display:none;
 }
 
+#pagina_doacao {
+	display: none;
+}
+
 <<<<<<< HEAD
 #helper{
 	position: fixed;
