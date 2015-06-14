@@ -39,24 +39,19 @@
 	<body>
 		
 		<div class="container">
-			<div class="row clearfix">
-				<div class="col-md-12 column" align="center">
-					<h2>
-						DOAÇÃO
-					</h2>
-					
-					<div class="row">
-						<div class="col-md-6 column" align="center">
-							<div class="img">
-								<img class="tamanho" src="img/camiseta_branco_frente.png">
-							</div>
-						</div>
+			
+			<!-- Imagens das camisetas -->
+			
+			<div class="row clearfix" id="img_camisetas">
+				<div class="col-md-6 column" align="center">
+					<div class="img">
+						<img class="tamanho" src="img/camiseta_branco_frente.png">
+					</div>
+				</div>
 						
-						<div class="col-md-6 column" align="center">
-							<div class="img">
-								<img class="tamanho" src="img/camiseta_branco_costas.png">
-							</div>
-						</div>
+				<div class="col-md-6 column" align="center">
+					<div class="img">
+						<img class="tamanho" src="img/camiseta_branco_costas.png">
 					</div>
 				</div>
 			</div>
@@ -75,6 +70,7 @@
 						<label class="col-md-4 control-label" for="select_entidade">Selecione a entidade beneficiada</label>
 						<div class="col-md-6">
 							<select id="select_entidade" name="select_entidade" class="form-control">
+								<option>Selecione</option>
 								<option value="1">Avocap</option>
 								<option value="2">APAE</option>
 							</select>
