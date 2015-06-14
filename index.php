@@ -35,11 +35,14 @@
     </head>
 
     <body>
+        <div id="helper">
+            <img src="img/favicon.png" alt="subir">
+       	</div>
         <div class="container">
             <div class="row clearfix">
 
                 <div class="col-md-12 column" align="center">
-                    <img src="img/logo_400.png"> <!-- class="img-circle" alt="600x600" -->
+                    <img src="img/logo_400.png" id="logotst"> <!-- class="img-circle" alt="600x600" -->
 
                 </div>
 
@@ -109,6 +112,7 @@
                             </div> <a class="left carousel-control" href="#carousel-605077" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-605077" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
                         </div>
                     </div>
+
                 </div>
 
                 <BR>
@@ -127,11 +131,5 @@
             </div>
 
         </div>
-
-        <div id="helper">
-            <img src="img/favicon.png" alt="subir">
-        </div>
-
-
     </body>
 </html>

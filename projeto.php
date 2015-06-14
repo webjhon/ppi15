@@ -52,6 +52,6 @@
 		<p>
 			<a class="btn" href="#">View details »</a>
 		</p>
-			
+					
     </body>
 </html>

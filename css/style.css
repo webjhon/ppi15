@@ -31,10 +31,23 @@ input:not([type="submit"]):focus{
     display:none;
 }
 
+#pagina_doacao {
+	display: none;
+}
+
+<<<<<<< HEAD
+#helper{
+	position: fixed;
+	margin-top: 43%;
+	margin-left:93%;
+}
+
+=======
 .tamanho{
     max-height: 60%;
     max-width: 40%;
     height: auto;
     width: auto;
 }
+>>>>>>> origin/master
 
