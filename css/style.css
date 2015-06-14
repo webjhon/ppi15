@@ -31,4 +31,10 @@ input:not([type="submit"]):focus{
     display:none;
 }
 
+#helper{
+	position: fixed;
+	margin-top: 43%;
+	margin-left:93%;
+}
+
 

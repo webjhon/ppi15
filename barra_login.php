@@ -8,13 +8,13 @@
 				<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li>
-							<a href="#" id="link_projeto">O projeto</a>
+							<a href="#projeto" id="link_projeto">O projeto</a>
 						</li>
 						<li>
-							<a href="#" id="link_midia">Mídia</a>
+							<a href="#midia" id="link_midia">Mídia</a>
 						</li>
 						<li>
-							<a href="#" id="link_doacao">Doação</a>
+							<a href="#doacao" id="link_doacao">Doação</a>
 						</li>
 						<li class="dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>

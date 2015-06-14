@@ -31,7 +31,7 @@ $(document).ready(function(){
 $("#home_page").click(function(){
    location.reload();  
 });
-
+//Ai clicar no botão MÍDIA, a página da espaço para o conteúdo de mídia ser apresentado.
 $("#link_midia").click(function(){
    $("#div_cadastro_login").hide("slow");
    $("#div_cadastro").hide("slow");
@@ -40,6 +40,10 @@ $("#link_midia").click(function(){
    $("#pagina_midia").show("slow");
 });
 
+// Código de funcionamento do botão UP, que acompanha o usuário durante a navegação na página.
+$("#helper").click(function(){
+      $('html, body').animate({scrollTop:0}, 'slow');
+});
     //APAGAR ESTE CÓDIGO
 /*$(':input').change(function(){    
        alert("testando");
