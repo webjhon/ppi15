@@ -24,7 +24,9 @@ $(document).ready(function(){
         $("#div_cadastro").hide("slow");
         $("#index_content").hide("slow");  
         $("#pagina_midia").hide("slow");
+        $("#pagina_doacao").hide("slow");
         $("#pagina_projeto").show("slow");
+        $('html,body').stop().animate({scrollTop: $("#pagina_projeto").offset().top}, 2000);
         
 });
 //Ao clicar no botão iniciar a página faz reaload, travendo novamente o conteúdo inicial do site.
@@ -37,7 +39,9 @@ $("#link_midia").click(function(){
    $("#div_cadastro").hide("slow");
    $("#index_content").hide("slow");
    $("#pagina_projeto").hide("slow");
+   $("#pagina_doacao").hide("slow");
    $("#pagina_midia").show("slow");
+   $('html,body').stop().animate({scrollTop: $("#pagina_midia").offset().top}, 2000);
 });
 
 // Código de funcionamento do botão UP, que acompanha o usuário durante a navegação na página.
@@ -45,13 +49,16 @@ $("#helper").click(function(){
       $('html, body').animate({scrollTop:0}, 'slow');
 });
 
-//Ai clicar no botão MÍDIA, a página da espaço para o conteúdo de mídia ser apresentado.
+//Ai clicar no botão DOAÇÃO, a página da espaço para o conteúdo de mídia ser apresentado.
 $("#link_doacao").click(function(){
    $("#div_cadastro_login").hide("slow");
    $("#div_cadastro").hide("slow");
    $("#index_content").hide("slow");
    $("#pagina_projeto").hide("slow");
+   $("#pagina_midia").hide("slow");
    $("#pagina_doacao").show("slow");
+   $('html,body').stop().animate({scrollTop: $("#pagina_doacao").offset().top}, 2000);
+
 });
     //APAGAR ESTE CÓDIGO
 /*$(':input').change(function(){    

@@ -63,6 +63,11 @@
                 include './midia.php';
                 ?>
             </div>
+            <div id="pagina_doacao">
+                <?php
+                include './doacao.php';
+                ?>
+            </div>            
             <div id="index_content">
                 <div class="row clearfix">
                     <div class="col-md-12 column">
