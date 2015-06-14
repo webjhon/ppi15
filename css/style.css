@@ -31,4 +31,10 @@ input:not([type="submit"]):focus{
     display:none;
 }
 
+.tamanho{
+	max-height: 40%;
+	max-width: 40%;
+	height: auto;
+	width: auto;
+}
 
