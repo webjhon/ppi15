@@ -63,7 +63,7 @@ MENU DOAÇÃO USANDO BOTÕES -------------->
 					</div>
 				</div>
 				
-				<!-- Textos de informações referentes ao menu -->
+<!------------------------- Textos de informações referentes ao menu ----------------------------->
 				<div class="col-md-6 column" align="left">
 					
 					<div id="porque_doar">
@@ -97,7 +97,7 @@ MENU DOAÇÃO USANDO BOTÕES -------------->
 				</div>	
 				
 				
-				<!-- Imagens referente a cada texto do menu -->
+<!------------------------- Imagens referente a cada texto do menu ------------------------------>
 				
 				<div class="col-md-4 column" align="center">
 
@@ -124,12 +124,12 @@ MENU DOAÇÃO USANDO BOTÕES -------------->
 			</div>
 			
 			
-			<!-- Formulário de Doação -->
+<!------------------------- Formulário de Doação ------------------------------>
 			
 			<form class="form-horizontal" id="formulario_doacao">
 				<fieldset>
 					
-					<!-- Form Name -->
+					<!-- Nome do formulário -->
 					<legend>Formulário de doação</legend>
 					
 					<!-- Selecao da entidade -->
