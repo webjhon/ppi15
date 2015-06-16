@@ -60,7 +60,7 @@ $("#link_doacao").click(function(){
    $('html,body').stop().animate({scrollTop: $("#pagina_doacao").offset().top}, 2000);
 
 });
-
+//O código abaixo, faz com que o menu da pagina doação altere entre as opções do usuário. 
 $('[name="porque_doar"]').click(function(){
     $("#brindes").hide("slow");
     $("#brindes_midia").hide("slow");
