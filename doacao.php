@@ -88,7 +88,6 @@ MENU DOAÇÃO USANDO BOTÕES -------------->
 				
 				
 <!------------------------- Imagens referente a cada texto do menu ------------------------------>
-				
 				<div class="col-md-4 column" align="center">
 					<div class="img" id="porque_doar_midia">
 						<img class="img-thumbnail" src="img/doacao.png">
@@ -101,9 +100,16 @@ MENU DOAÇÃO USANDO BOTÕES -------------->
 						<img class="img-thumbnail" src="img/camiseta.png">
 					</div>
 					<div class="img" id="brindes_midia">
-						<a href="img/camisetas_branco.png">
-							<img class="img-thumbnail" src="img/camisetas_branco.png">
-						</a>
+					<img src="img/camisetas_branco.png" class="img-thumbnail" data-toggle="modal" data-target=".bs-example-modal-lg">
+
+					<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  						<div class="modal-dialog modal-lg">
+    						<div class="modal-content">
+      							<img class="img-thumbnail" src="img/camisetas_branco.png">	
+    						</div>
+  						</div>
+					</div>
+
 					</div>
 				</div>
 			</div>

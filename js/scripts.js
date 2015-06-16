@@ -70,6 +70,7 @@ $('[name="porque_doar"]').click(function(){
     $("#entidades_midia").hide("slow");
     $("#porque_doar").show("slow");
     $("#porque_doar_midia").show("slow");
+    $('html,body').stop().animate({scrollTop: $("#porque_doar").offset().top}, 2000);
 });
 $('[name="entidades"]').click(function(){
     $("#brindes").hide("slow");
@@ -80,6 +81,7 @@ $('[name="entidades"]').click(function(){
     $("#porque_doar_midia").hide("slow");
     $("#entidades").show("slow");
     $("#entidades_midia").show("slow");
+    $('html,body').stop().animate({scrollTop: $("#entidades").offset().top}, 2000);
 });
 $('[name="como_doar"]').click(function(){
     $("#brindes").hide("slow");
@@ -90,6 +92,7 @@ $('[name="como_doar"]').click(function(){
     $("#entidades_midia").hide("slow");
     $("#como_doar").show("slow");
     $("#como_doar_midia").show("slow");
+    $('html,body').stop().animate({scrollTop: $("#como_doar").offset().top}, 2000);
 });
 $('[name="brindes"]').click(function(){
     $("#porque_doar").hide("slow");
@@ -100,6 +103,7 @@ $('[name="brindes"]').click(function(){
     $("#como_doar_midia").hide("slow");
     $("#brindes").show("slow");
     $("#brindes_midia").show("slow");
+    $('html,body').stop().animate({scrollTop: $("#brindes").offset().top}, 2000);
 });
 
 //O Código abaixo, identifica se o usuário já esta ou não logado antes de direcionar ao módulo de doação
@@ -115,6 +119,7 @@ $("#botao_doacao").click(function(){
     $('html,body').stop().animate({scrollTop: $("#div_cadastro_login").offset().top}, 2000);
   }
 });
+
 
     //APAGAR ESTE CÓDIGO
 /*$(':input').change(function(){    
