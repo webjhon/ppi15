@@ -126,12 +126,12 @@
 
             <div id="div_cadastro_login">
                 <?php
-                include './login_cadastro.php';
+                    include './login_cadastro.php';
                 ?>
             </div>
             <div id="div_cadastro">
                 <?php
-                include './cadastro.php';
+                    include './cadastro.php';
                 ?>
             </div>
 

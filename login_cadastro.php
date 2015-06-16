@@ -37,7 +37,7 @@
 		
 		<div id="form_login">
                     <form class="form-horizontal" method="POST" action="validarLogin.php">
-				<fieldset>
+                 <fieldset>
 					
 					<!-- Form Name -->
 					<legend>Já tem cadastro ?</legend>
