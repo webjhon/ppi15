@@ -40,17 +40,23 @@
 		
 		<div class="container">
 			
-			
+			<!-- Primeira linha do bootstrap -->
 			<div class="row clearfix" id="id_doacoes">
-				<div class="col-md-6 column" align="left">
-					
-					<!-- Menu doacao -->
+				
+				<!-- Menu com informações sobre doacao -->
+				<div class="col-md-2 column" align="left">
 					<div class="btn-group btn-group-md">
-						<button class="btn btn-primary" type="button" name="porque_doar"> <em class="glyphicon glyphicon-align-left"></em> Por que doar ?</button>
-						<button class="btn btn-default" type="button" name="entidades"> <em class="glyphicon glyphicon-align-center"></em> Entidades</button>
-						<button class="btn btn-primary" type="button" name="como_doar"> <em class="glyphicon glyphicon-align-right"></em> Como doar ?</button>
-						<button class="btn btn-default" type="button" name="brindes"> <em class="glyphicon glyphicon-align-justify"></em> Brindes</button>
+						<div class="btn-group btn-group-vertical">
+							<button class="btn btn-primary" type="button" name="porque_doar"> <em class="glyphicon glyphicon-align-left"></em> Por que doar ?</button>
+							<button class="btn btn-default" type="button" name="entidades"> <em class="glyphicon glyphicon-align-center"></em> Entidades</button>
+							<button class="btn btn-primary" type="button" name="como_doar"> <em class="glyphicon glyphicon-align-right"></em> Como doar ?</button>
+							<button class="btn btn-default" type="button" name="brindes"> <em class="glyphicon glyphicon-align-justify"></em> Brindes</button>
+						</div>
 					</div>
+				</div>
+				
+				<!-- Textos de informações referentes ao menu -->
+				<div class="col-md-6 column" align="left">
 					
 					<div id="porque_doar">
 						<h4>O nosso trabalho funciona</h4>
@@ -72,12 +78,12 @@
 							<p>Brindes</p>
 					</div>
 					
-					
-				</div>
+				</div>	
 				
-				<!-- Imagens doacao -->
 				
-				<div class="col-md-6 column" align="center">
+				<!-- Imagens referente a cada texto do menu -->
+				
+				<div class="col-md-4 column" align="center">
 
 				
 					<div class="img" id="porque_doar_midia">
@@ -101,7 +107,7 @@
 			
 			<!-- Formulário de Doação -->
 			
-			<form class="form-horizontal">
+			<form class="form-horizontal" id="formulario_docao">
 				<fieldset>
 					
 					<!-- Form Name -->
