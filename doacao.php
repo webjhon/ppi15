@@ -40,18 +40,63 @@
 		
 		<div class="container">
 			
-			<!-- Imagens das camisetas -->
 			
-			<div class="row clearfix" id="img_camisetas">
-				<div class="col-md-6 column" align="center">
-					<div class="img">
-						<img class="tamanho" src="img/camiseta_branco_frente.png">
+			<div class="row clearfix" id="id_doacoes">
+				<div class="col-md-6 column" align="left">
+					
+					<!-- Menu doacao -->
+					<div class="btn-group btn-group-md">
+						<button class="btn btn-primary" type="button" name="porque_doar"> <em class="glyphicon glyphicon-align-left"></em> Por que doar ?</button>
+						<button class="btn btn-default" type="button" name="entidades"> <em class="glyphicon glyphicon-align-center"></em> Entidades</button>
+						<button class="btn btn-primary" type="button" name="como_doar"> <em class="glyphicon glyphicon-align-right"></em> Como doar ?</button>
+						<button class="btn btn-default" type="button" name="brindes"> <em class="glyphicon glyphicon-align-justify"></em> Brindes</button>
 					</div>
+					
+					<div id="porque_doar">
+						<h4>O nosso trabalho funciona</h4>
+							<p>Com as atividades realizadas nas escolas no 2º semestre de 2014, percebemos e tivemos com testemunho dos professores, que o rendimento dos alunos melhorou. Principalmente em atividades que envolvem o raciocínio lógico.</p>
+					</div>
+					
+					<div id="entidades">
+						<h4>Entidades</h4>
+							<p>Entidades</p>
+					</div>
+					
+					<div id="como_doar">
+						<h4>Como doar ?</h4>
+							<p>Como doar ?</p>
+					</div>
+					
+					<div id="brindes">
+						<h4>Brindes</h4>
+							<p>Brindes</p>
+					</div>
+					
+					
 				</div>
-						
+				
+				<!-- Imagens doacao -->
+				
 				<div class="col-md-6 column" align="center">
+
 					<div class="img">
-						<img class="tamanho" src="img/camiseta_branco_costas.png">
+						<img class="tamanho" src="img/logo_400.png">
+					</div>
+				
+					<div class="img" id="porque_doar_midia">
+						<img class="tamanho" src="img/doacao.png">
+					</div>
+					
+					<div class="img" id="entidades_midia">
+						<img class="tamanho" src="img/camiseta.png">
+					</div>
+					
+					<div class="img" id="como_doar_midia">
+						<img class="tamanho" src="img/camiseta.png">
+					</div>
+					
+					<div class="img" id="brindes_midia">
+						<img class="tamanho" src="img/camiseta.png">
 					</div>
 				</div>
 			</div>
@@ -65,7 +110,7 @@
 					<!-- Form Name -->
 					<legend>Formulário de doação</legend>
 					
-					<!-- Select Basic -->
+					<!-- Selecao da entidade -->
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="select_entidade">Selecione a entidade beneficiada</label>
 						<div class="col-md-6">
@@ -77,7 +122,7 @@
 						</div>
 					</div>
 					
-					<!-- Select Basic -->
+					<!-- Selecao valor -->
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="seleciona_valor">Selecione o valor da doação</label>
 						<div class="col-md-6">
@@ -91,7 +136,7 @@
 					</div>
 					
 					
-					<!-- Multiple Radios -->
+					<!-- Selecao Banco -->
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="bancos">Selecione o banco preferencial</label>
 						<div class="col-md-4">
@@ -122,7 +167,7 @@
 						</div>
 					</div>
 					
-					<!-- Button -->
+					<!-- Botao Doacao -->
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="gera_doacao"></label>
 						<div class="col-md-4">

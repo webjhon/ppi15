@@ -1,50 +1,70 @@
 #div_cadastro_login {
-    display: none;
-}
+    display: none;}
 
 #botao_cadastro{
 	float: right;
 	background-color: #33ab35;
-	font-weight: bold;
-}
+	font-weight: bold;}
 
 #botao_login{
 	float: right;
 	background-color: #33ab35;
-	font-weight: bold;
-}
-
+	font-weight: bold;}
 
 #div_cadastro{
-    display:none;
-}
+    display:none;}
 
 input:not([type="submit"]):focus{
 	color:#fff;
 	font-weight: bold;
-    background-color: #33ab35;
-}
+    background-color: #33ab35;}
+
 #pagina_projeto{
-    display:none;
-}
+    display:none;}
+
 #pagina_midia{
-    display:none;
-}
+    display:none;}
 
 #pagina_doacao {
-	display: none;
-}
+	display: none;}
 
 #helper{
 	position: fixed;
 	margin-top: 43%;
-	margin-left:93%;
-}
+	margin-left:93%;}
 
 .tamanho{
-    max-height: 60%;
-    max-width: 40%;
+    max-height: 100%;
+    max-width: 60%;
     height: auto;
-    width: auto;
-}
+    width: auto;}
 
+#info_doacao{
+	border: 1px solid;
+	word-wrap: break-word;}
+
+	
+/*div's doacao*/
+#porque_doar{
+	display: none;}
+
+#entidades{
+	display: none;}
+	
+#como_doar{
+	display: none;}
+
+#brindes{
+	display: none;}
+
+#porque_doar_midia{
+	display: none;}
+	
+#entidades_midia{
+	display: none;}
+	
+#como_doar_midia{
+	display: none;}
+
+#brindes_midia{
+	display: none;}
