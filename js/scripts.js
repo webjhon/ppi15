@@ -102,6 +102,9 @@ $('[name="brindes"]').click(function(){
     $("#brindes_midia").show("slow");
 });
 
+//O Código abaixo, identifica se o usuário já esta ou não logado antes de direcionar ao módulo de doação
+
+
     //APAGAR ESTE CÓDIGO
 /*$(':input').change(function(){    
        alert("testando");
