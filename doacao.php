@@ -17,12 +17,47 @@
 				<!-- Menu com informações sobre doacao -->
 				<div class="col-md-2 column" align="left">
 					<div class="btn-group btn-group-md">
-						<div class="btn-group btn-group-vertical">
-							<button class="btn btn-primary" type="button" name="porque_doar"> <em class="glyphicon glyphicon-align-left"></em> Por que doar ?</button>
-							<button class="btn btn-default" type="button" name="entidades"> <em class="glyphicon glyphicon-align-center"></em> Entidades</button>
-							<button class="btn btn-primary" type="button" name="como_doar"> <em class="glyphicon glyphicon-align-right"></em> Como doar ?</button>
-							<button class="btn btn-default" type="button" name="brindes"> <em class="glyphicon glyphicon-align-justify"></em> Brindes</button>
+<!-- MENU DOAÇÃO USANDO BOTÕES
+	
+							<div class="btn-group btn-group-vertical">
+							<button class="btn btn-default" type="button" name="porque_doar"> <em class="glyphicon glyphicon-heart-empty"></em> Por que doar ?</button>
+							<button class="btn btn-default" type="button" name="como_doar"> <em class="glyphicon glyphicon-list-alt"></em> Como doar ?</button>
+							<button class="btn btn-default" type="button" name="entidades"> <em class="glyphicon glyphicon-home"></em> Entidades</button>
+							<button class="btn btn-default" type="button" name="brindes"> <em class="glyphicon glyphicon-gift"></em> Brindes</button>
 						</div>
+MENU DOAÇÃO USANDO BOTÕES -->
+							
+							<!-- MENU DOAÇÃO USANDO LISTA -->
+							<ul class="nav nav-list bs-docs-sidenav affix">
+								<li class="active">
+									<a href="#porque_doar" name="porque_doar">
+										<em class="glyphicon glyphicon-heart-empty"></em>
+										<i class="icon-chevron-right"></i>
+										Por que doar ?
+									</a>
+								</li>
+								<li class="active">
+									<a href="#como_doar" name="como_doar">
+										<em class="glyphicon glyphicon-list-alt"></em>
+										<i class="icon-chevron-right"></i>
+										Como doar ?
+									</a>
+								</li>
+								<li class="active">
+									<a href="#entidades" name="entidades">
+										<em class="glyphicon glyphicon-home"></em>
+										<i class="icon-chevron-right"></i>
+										Entidades
+									</a>
+								</li>
+								<li class="active">
+									<a href="#brindes" name="brindes">
+										<em class="glyphicon glyphicon-gift"></em>
+										<i class="icon-chevron-right"></i>
+										Brindes
+									</a>
+								</li>
+						
 					</div>
 				</div>
 				
@@ -44,7 +79,10 @@
 					
 					<div id="como_doar">
 						<h4>Como doar ?</h4>
-							<p>Como doar ?</p>
+							<p>Para realizar uma doação é necessário estar cadastrado em nossa base de dados.</p>
+							<p>Basta clicar no botão "Faça a sua doação!" para ser direcionado ao formulário de cadastro.</p>
+							<p>Após cadastro, efetuar login e seguir os passos no formulário de doação.</p>
+							<p>Você poderá optar por alguns valores pré-definidos e ver alguns brindes que o projeto proporciona aos doadores.</p>
 						<?php include 'botao_doar.php' ?>
 					</div>
 					
