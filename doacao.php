@@ -31,13 +31,14 @@
 					
 					<div id="porque_doar">
 						<h4>O nosso trabalho funciona</h4>
-							<p>Com as atividades realizadas nas escolas no 2º semestre de 2014, percebemos e tivemos com testemunho dos professores, que o rendimento dos alunos melhorou. Principalmente em atividades que envolvem o raciocínio lógico.</p>
+						<p>Com as atividades realizadas nas escolas no 2º semestre de 2014, percebemos e tivemos com testemunho dos professores, que o rendimento dos alunos melhorou. Principalmente em atividades que envolvem o raciocínio lógico.</p>
+						<p>As doações manterão nosso site no ar e proporcionarão a visualização das atividades realizadas no projeto, bem como um futuro repositório de jogos e atividades online.</p>
 							<?php include 'botao_doar.php' ?>
 					</div>
 					
 					<div id="entidades">
 						<h4>Entidades</h4>
-							<p>Entidades</p>
+						<p>Escolhemos algumas entidades da nossa cidade para repassar parte das doações realizadas pelo site. Isso amplia a participação social do projeto e beneficia outra frentes que se preocupam com o desenvolvimento das crianças.</p>
 						<?php include 'botao_doar.php' ?>
 					</div>
 					
@@ -49,7 +50,7 @@
 					
 					<div id="brindes">
 						<h4>Brindes</h4>
-							<p>Brindes</p>
+							<p>Através de uma doação ao projeto você pode receber uma camiseta de colaborador do projeto.</p>
 						<?php include 'botao_doar.php' ?>
 					</div>
 					
@@ -62,19 +63,22 @@
 
 				
 					<div class="img" id="porque_doar_midia">
-						<img class="tamanho" src="img/doacao.png">
+						<img class="img-thumbnail" src="img/doacao.png">
 					</div>
 					
 					<div class="img" id="entidades_midia">
-						<img class="tamanho" src="img/camiseta.png">
+						<img src="img/casa_passagem.jpg" class="img-thumbnail" alt="AVOCAP" width="150" height="150">
+						<img src="img/apae.jpg" class="img-thumbnail" alt="APAE" width="150" height="150">
 					</div>
 					
 					<div class="img" id="como_doar_midia">
-						<img class="tamanho" src="img/camiseta.png">
+						<img class="img-thumbnail" src="img/camiseta.png">
 					</div>
 					
 					<div class="img" id="brindes_midia">
-						<img class="tamanho" src="img/camiseta.png">
+						<a href="img/camisetas_branco.png">
+							<img class="img-thumbnail" src="img/camisetas_branco.png">
+						</a>
 					</div>
 				</div>
 			</div>
