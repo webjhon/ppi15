@@ -107,7 +107,7 @@
 			
 			<!-- Formulário de Doação -->
 			
-			<form class="form-horizontal" id="formulario_docao">
+			<form class="form-horizontal" id="formulario_doacao">
 				<fieldset>
 					
 					<!-- Form Name -->
