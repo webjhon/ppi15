@@ -61,21 +61,25 @@
 					<div id="porque_doar">
 						<h4>O nosso trabalho funciona</h4>
 							<p>Com as atividades realizadas nas escolas no 2º semestre de 2014, percebemos e tivemos com testemunho dos professores, que o rendimento dos alunos melhorou. Principalmente em atividades que envolvem o raciocínio lógico.</p>
+							<button type="button" class="btn btn-success" id="botao_doacao">Faça a sua doação!</button>
 					</div>
 					
 					<div id="entidades">
 						<h4>Entidades</h4>
 							<p>Entidades</p>
+						<button type="button" class="btn btn-success" id="botao_doacao">Faça a sua doação!</button>
 					</div>
 					
 					<div id="como_doar">
 						<h4>Como doar ?</h4>
 							<p>Como doar ?</p>
+						<button type="button" class="btn btn-success" id="botao_doacao">Faça a sua doação!</button>
 					</div>
 					
 					<div id="brindes">
 						<h4>Brindes</h4>
 							<p>Brindes</p>
+						<button type="button" class="btn btn-success" id="botao_doacao">Faça a sua doação!</button>
 					</div>
 					
 				</div>	
