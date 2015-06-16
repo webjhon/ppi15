@@ -17,7 +17,8 @@
 				<!-- Menu com informações sobre doacao -->
 				<div class="col-md-2 column" align="left">
 					<div class="btn-group btn-group-md">
-<!-- MENU DOAÇÃO USANDO BOTÕES
+
+<!------------- MENU DOAÇÃO USANDO BOTÕES
 	
 							<div class="btn-group btn-group-vertical">
 							<button class="btn btn-default" type="button" name="porque_doar"> <em class="glyphicon glyphicon-heart-empty"></em> Por que doar ?</button>
@@ -25,9 +26,10 @@
 							<button class="btn btn-default" type="button" name="entidades"> <em class="glyphicon glyphicon-home"></em> Entidades</button>
 							<button class="btn btn-default" type="button" name="brindes"> <em class="glyphicon glyphicon-gift"></em> Brindes</button>
 						</div>
-MENU DOAÇÃO USANDO BOTÕES -->
+MENU DOAÇÃO USANDO BOTÕES -------------->
 							
-							<!-- MENU DOAÇÃO USANDO LISTA -->
+							
+<!------------------------- MENU DOAÇÃO USANDO LISTA ------------------------------>
 							<ul class="nav nav-list bs-docs-sidenav affix">
 								<li class="active">
 									<a href="#porque_doar" name="porque_doar">
