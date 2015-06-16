@@ -79,9 +79,6 @@
 				
 				<div class="col-md-6 column" align="center">
 
-					<div class="img">
-						<img class="tamanho" src="img/logo_400.png">
-					</div>
 				
 					<div class="img" id="porque_doar_midia">
 						<img class="tamanho" src="img/doacao.png">

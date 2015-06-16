@@ -60,6 +60,48 @@ $("#link_doacao").click(function(){
    $('html,body').stop().animate({scrollTop: $("#pagina_doacao").offset().top}, 2000);
 
 });
+
+$('[name="porque_doar"]').click(function(){
+    $("#brindes").hide("slow");
+    $("#brindes_midia").hide("slow");
+    $("#como_doar").hide("slow");
+    $("#como_doar_midia").hide("slow");
+    $("#entidades").hide("slow");
+    $("#entidades_midia").hide("slow");
+    $("#porque_doar").show("slow");
+    $("#porque_doar_midia").show("slow");
+});
+$('[name="entidades"]').click(function(){
+    $("#brindes").hide("slow");
+    $("#brindes_midia").hide("slow");
+    $("#como_doar").hide("slow");
+    $("#como_doar_midia").hide("slow");
+    $("#porque_doar").hide("slow");
+    $("#porque_doar_midia").hide("slow");
+    $("#entidades").show("slow");
+    $("#entidades_midia").show("slow");
+});
+$('[name="como_doar"]').click(function(){
+    $("#brindes").hide("slow");
+    $("#brindes_midia").hide("slow");
+    $("#porque_doar").hide("slow");
+    $("#porque_doar_midia").hide("slow");
+    $("#entidades").hide("slow");
+    $("#entidades_midia").hide("slow");
+    $("#como_doar").show("slow");
+    $("#como_doar_midia").show("slow");
+});
+$('[name="brindes"]').click(function(){
+    $("#porque_doar").hide("slow");
+    $("#porque_doar_midia").hide("slow");
+    $("#entidades").hide("slow");
+    $("#entidades_midia").hide("slow");
+    $("#como_doar").hide("slow");
+    $("#como_doar_midia").hide("slow");
+    $("#brindes").show("slow");
+    $("#brindes_midia").show("slow");
+});
+
     //APAGAR ESTE CÓDIGO
 /*$(':input').change(function(){    
        alert("testando");
