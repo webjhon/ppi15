@@ -9,61 +9,49 @@
 	
 	<body>
 		
+<!-- Primeira linha do bootstrap -->		
 		<div class="container">
-			
-			<!-- Primeira linha do bootstrap -->
 			<div class="row clearfix" id="id_doacoes">
-				
-				<!-- Menu com informações sobre doacao -->
-				<div class="col-md-2 column" align="left">
-					<div class="btn-group btn-group-md">
-
+<!------------------------- GRID para o Menu com informações sobre doacao ------------------------------>
+				<div class="col-md-2 column" align="left"><!-- Abre div de grid tamanho 2 -->
+					<div class="btn-group btn-group-md"> <!-- Abre div de grupo de botões -->
+					
 <!------------- MENU DOAÇÃO USANDO BOTÕES
-	
-							<div class="btn-group btn-group-vertical">
+						<div class="btn-group btn-group-vertical">
 							<button class="btn btn-default" type="button" name="porque_doar"> <em class="glyphicon glyphicon-heart-empty"></em> Por que doar ?</button>
 							<button class="btn btn-default" type="button" name="como_doar"> <em class="glyphicon glyphicon-list-alt"></em> Como doar ?</button>
 							<button class="btn btn-default" type="button" name="entidades"> <em class="glyphicon glyphicon-home"></em> Entidades</button>
 							<button class="btn btn-default" type="button" name="brindes"> <em class="glyphicon glyphicon-gift"></em> Brindes</button>
 						</div>
 MENU DOAÇÃO USANDO BOTÕES -------------->
-							
-							
+
 <!------------------------- MENU DOAÇÃO USANDO LISTA ------------------------------>
 							<ul class="nav nav-list bs-docs-sidenav affix">
 								<li class="active">
 									<a href="#porque_doar" name="porque_doar">
 										<em class="glyphicon glyphicon-heart-empty"></em>
 										<i class="icon-chevron-right"></i>
-										Por que doar ?
-									</a>
-								</li>
+										Por que doar ?</a></li>
 								<li class="active">
 									<a href="#como_doar" name="como_doar">
 										<em class="glyphicon glyphicon-list-alt"></em>
 										<i class="icon-chevron-right"></i>
-										Como doar ?
-									</a>
-								</li>
+										Como doar ?</a></li>
 								<li class="active">
 									<a href="#entidades" name="entidades">
 										<em class="glyphicon glyphicon-home"></em>
 										<i class="icon-chevron-right"></i>
-										Entidades
-									</a>
-								</li>
+										Entidades</a></li>
 								<li class="active">
 									<a href="#brindes" name="brindes">
 										<em class="glyphicon glyphicon-gift"></em>
 										<i class="icon-chevron-right"></i>
-										Brindes
-									</a>
-								</li>
-						
-					</div>
-				</div>
+										Brindes</a></li>
+					</div><!--Fecha div de grupo de botões -->
+				</div><!--Fecha div de GRID tamanho 2 -->
 				
 <!------------------------- Textos de informações referentes ao menu ----------------------------->
+				
 				<div class="col-md-6 column" align="left">
 					
 					<div id="porque_doar">
@@ -82,9 +70,11 @@ MENU DOAÇÃO USANDO BOTÕES -------------->
 					<div id="como_doar">
 						<h4>Como doar ?</h4>
 							<p>Para realizar uma doação é necessário estar cadastrado em nossa base de dados.</p>
-							<p>Basta clicar no botão "Faça a sua doação!" para ser direcionado ao formulário de cadastro.</p>
-							<p>Após cadastro, efetuar login e seguir os passos no formulário de doação.</p>
-							<p>Você poderá optar por alguns valores pré-definidos e ver alguns brindes que o projeto proporciona aos doadores.</p>
+							<ul>
+								<li><p>Basta clicar no botão "Faça a sua doação!" para ser direcionado ao formulário de cadastro.</p></li>
+								<li><p>Após cadastro, efetuar login e seguir os passos no formulário de doação.</p></li>
+								<li><p>Você poderá optar por alguns valores pré-definidos e ver alguns brindes que o projeto proporciona aos doadores.</p></li>
+							</ul>
 						<?php include 'botao_doar.php' ?>
 					</div>
 					
@@ -100,21 +90,16 @@ MENU DOAÇÃO USANDO BOTÕES -------------->
 <!------------------------- Imagens referente a cada texto do menu ------------------------------>
 				
 				<div class="col-md-4 column" align="center">
-
-				
 					<div class="img" id="porque_doar_midia">
 						<img class="img-thumbnail" src="img/doacao.png">
 					</div>
-					
 					<div class="img" id="entidades_midia">
 						<img src="img/casa_passagem.jpg" class="img-thumbnail" alt="AVOCAP" width="150" height="150">
 						<img src="img/apae.jpg" class="img-thumbnail" alt="APAE" width="150" height="150">
 					</div>
-					
 					<div class="img" id="como_doar_midia">
 						<img class="img-thumbnail" src="img/camiseta.png">
 					</div>
-					
 					<div class="img" id="brindes_midia">
 						<a href="img/camisetas_branco.png">
 							<img class="img-thumbnail" src="img/camisetas_branco.png">
