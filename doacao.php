@@ -26,7 +26,7 @@
 MENU DOAÇÃO USANDO BOTÕES -------------->
 
 <!------------------------- MENU DOAÇÃO USANDO LISTA ------------------------------>
-							<ul class="nav nav-list bs-docs-sidenav affix">
+							<ul class="nav nav-list bs-docs-sidenav">
 								<li class="active">
 									<a href="#porque_doar" name="porque_doar">
 										<em class="glyphicon glyphicon-heart-empty"></em>

@@ -109,10 +109,11 @@ $('[name="brindes"]').click(function(){
 //O Código abaixo, identifica se o usuário já esta ou não logado antes de direcionar ao módulo de doação
 
 $("#botao_doacao").click(function(){
-  var logado = '<?php echo $logado ?>;';
-  if(logado == true){
-    $("#formulario_doacao").show("slow");
-    $('html,body').stop().animate({scrollTop: $("#formulario_doacao").offset().top}, 2000);
+  var logado = "<?php echo $logado;?>";
+  if(logado === 1){
+    //$("#formulario_doacao").show("slow");
+    //$('html,body').stop().animate({scrollTop: $("#formulario_doacao").offset().top}, 2000);
+    alert("logado");
   }
   else {
     $("#div_cadastro_login").show();

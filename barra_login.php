@@ -54,11 +54,12 @@
                         -->
                     
 					<ul class="nav navbar-nav navbar-form navbar-right">
-						<a>
+						
+                                            <a href="desloga.php"> Sair </a>                     
                             <button type="submit" class="btn btn-default">
                                 Bem vindo <?=$_SESSION['nome_usuario'];?>
                             </button>
-				        </a>
+				        
 						
 					</ul>
 				</div>
