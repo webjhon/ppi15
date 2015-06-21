@@ -3,6 +3,7 @@
 	
 	<head>
 		<?php require_once('bootstrap_rel.php'); ?>
+                    <?php require_once('./validar_sessao.php'); ?>
 		<title>Logicando - feito  para evoluir</title>
 	</head>
 	
@@ -85,7 +86,6 @@ MENU DOAÇÃO USANDO BOTÕES -------------->
 					</div>
 					
 				</div>	
-				
 				
 <!------------------------- Imagens referente a cada texto do menu ------------------------------>
 				<div class="col-md-4 column" align="center">

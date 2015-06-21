@@ -72,6 +72,8 @@ $('[name="porque_doar"]').click(function(){
     $("#porque_doar_midia").show("slow");
     $('html,body').stop().animate({scrollTop: $("#porque_doar").offset().top}, 2000);
 });
+//O código abaixo é refente ao botão de nome ENTIDADE, faz com que seu conteúdo seja exibido e os outros fiquem invisíveis.
+
 $('[name="entidades"]').click(function(){
     $("#brindes").hide("slow");
     $("#brindes_midia").hide("slow");
@@ -83,6 +85,8 @@ $('[name="entidades"]').click(function(){
     $("#entidades_midia").show("slow");
     $('html,body').stop().animate({scrollTop: $("#entidades").offset().top}, 2000);
 });
+
+//O código abaixo é refente ao botão de nome COMO DOAR, faz com que seu conteúdo seja exibido e os outros fiquem invisíveis.
 $('[name="como_doar"]').click(function(){
     $("#brindes").hide("slow");
     $("#brindes_midia").hide("slow");
@@ -94,6 +98,7 @@ $('[name="como_doar"]').click(function(){
     $("#como_doar_midia").show("slow");
     $('html,body').stop().animate({scrollTop: $("#como_doar").offset().top}, 2000);
 });
+//O código abaixo é refente ao botão de nome BRINDES, faz com que seu conteúdo seja exibido e os outros fiquem invisíveis.
 $('[name="brindes"]').click(function(){
     $("#porque_doar").hide("slow");
     $("#porque_doar_midia").hide("slow");
@@ -109,8 +114,9 @@ $('[name="brindes"]').click(function(){
 //O Código abaixo, identifica se o usuário já esta ou não logado antes de direcionar ao módulo de doação
 
 $("#botao_doacao").click(function(){
-  var logado = "<?php echo $logado;?>";
-  if(logado === 1){
+   
+    var logado = "<? echo $logado; ?>";
+     if(logado === true){
     //$("#formulario_doacao").show("slow");
     //$('html,body').stop().animate({scrollTop: $("#formulario_doacao").offset().top}, 2000);
     alert("logado");
@@ -118,7 +124,9 @@ $("#botao_doacao").click(function(){
   else {
     $("#div_cadastro_login").show();
     $('html,body').stop().animate({scrollTop: $("#div_cadastro_login").offset().top}, 2000);
-  }
+    
+  
+  };
 });
 
 
