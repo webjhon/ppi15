@@ -37,22 +37,81 @@
 	
 	
 	<body>
-		
 		<div class="container">
 			
 			<div class="row clearfix">
-				<div class="col-md-12 column" align="center">
-
-				<ul class="nav nav-pills">
-  					<li role="presentation" class="active"><a href="#">Home</a></li>
-  					<li role="presentation"><a href="#">Profile</a></li>
-  					<li role="presentation"><a href="#">Messages</a></li>
-				</ul>
+				<div class="col-md-12 column" align="left">
 				
+					<h2>Informações de doação</h2>
+					<p>Abaixo seguem as informações sobre as doações já realizadas pelo site. Você encontrará informações do status da doação e envio de brindes, caso atingido valor mínimo de doação</p>            
+					
+					<table class="table">
+						<thead>
+						<tr>
+							<th>Doação n.º</th>
+							<th>Data</th>
+							<th>Valor</th>
+							<th>Brinde</th>
+							<th>Status</th>
+						</tr>
+						</thead>
+							<tbody>
+							<tr>
+								<td>001</td>
+								<td>10/06/2015</td>
+								<td>R$ 80,00</td>
+								<td>
+									<em class="glyphicon glyphicon-thumbs-up blue"></em></td>
+								<td>
+									<em class="glyphicon glyphicon-ok green"></em></td>
+							</tr>
+							<tr>
+								<td>002</td>
+								<td>20/05/2015</td>
+								<td>R$ 50,00</td>
+								<td>
+									<em class="glyphicon glyphicon-thumbs-up blue"></em></td>
+								<td>
+									<em class="glyphicon glyphicon-time"></em></td>
+							</tr>
+							<tr>
+								<td>003</td>
+								<td>10/06/2015</td>
+								<td>R$ 30,00</td>
+								<td>
+									<em class="glyphicon glyphicon-thumbs-up blue"></em></td>
+								<td>
+									<em class="glyphicon glyphicon-ok green"></em></td>
+							</tr>
+							<tr>
+								<td>004</td>
+								<td>10/06/2015</td>
+								<td>R$ 15,00</td>
+								<td>
+									<em class="glyphicon glyphicon-remove red"></td>
+								<td>
+									<em class="glyphicon glyphicon-ok green"></em></td>
+							</tr>
+							<tr>
+								<td>005</td>
+								<td>10/06/2015</td>
+								<td>R$ 80,00</td>
+								<td>
+									<em class="glyphicon glyphicon-thumbs-up blue"></em></td>
+								<td>
+									<em class="glyphicon glyphicon-remove red"></em></td>
+							</tr>
+							</tbody>
+					</table>
 				</div>
+				
 			</div>
+			
+			
 		</div>
 			
+	
+	
 	</body>
 		
 </html>														

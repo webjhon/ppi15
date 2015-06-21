@@ -15,16 +15,7 @@
 			<div class="row clearfix" id="id_doacoes">
 <!------------------------- GRID para o Menu com informações sobre doacao ------------------------------>
 				<div class="col-md-2 column" align="left"><!-- Abre div de grid tamanho 2 -->
-					<div class="btn-group btn-group-md"> <!-- Abre div de grupo de botões -->
-					
-<!------------- MENU DOAÇÃO USANDO BOTÕES
-						<div class="btn-group btn-group-vertical">
-							<button class="btn btn-default" type="button" name="porque_doar"> <em class="glyphicon glyphicon-heart-empty"></em> Por que doar ?</button>
-							<button class="btn btn-default" type="button" name="como_doar"> <em class="glyphicon glyphicon-list-alt"></em> Como doar ?</button>
-							<button class="btn btn-default" type="button" name="entidades"> <em class="glyphicon glyphicon-home"></em> Entidades</button>
-							<button class="btn btn-default" type="button" name="brindes"> <em class="glyphicon glyphicon-gift"></em> Brindes</button>
-						</div>
-MENU DOAÇÃO USANDO BOTÕES -------------->
+					<div class="btn-group btn-group-md"> <!-- Abre div de grupo de botoes -->
 
 <!------------------------- MENU DOAÇÃO USANDO LISTA ------------------------------>
 							<ul class="nav nav-list bs-docs-sidenav">
@@ -141,7 +132,7 @@ MENU DOAÇÃO USANDO BOTÕES -------------->
 						<div class="col-md-6">
 							<select id="seleciona_valor" name="seleciona_valor" class="form-control">
 								<option value="1">R$ 15,00 (mínimo)</option>
-								<option value="2">R$ 30,00</option>
+								<option value="2">R$ 30,00 (adesivos)</option>
 								<option value="3">R$ 50,00 (camiseta)</option>
 								<option value="4">R$ 80,00 (camiseta + adesivos)</option>
 							</select>

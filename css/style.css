@@ -69,6 +69,13 @@ input:not([type="submit"]):focus{
 #formulario_doacao{
 	display:none;}
 
+.blue{
+	color: blue;}
 	
+.red{
+	color: red;}
+
+.green{
+	color:green;}
 
 

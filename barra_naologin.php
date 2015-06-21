@@ -16,9 +16,6 @@
 						<li>
 							<a href="#" id="link_doacao">Doação</a>
 						</li>
-						<li>
-							<a href="#doador" id="link_doador">Minhas doações</a>
-						</li>						
 					</ul>
                     
                         <!-- #############   CAMPO DE PESQUISA DENTRO DO MENU   #############
