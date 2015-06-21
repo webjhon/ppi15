@@ -39,10 +39,15 @@
 	<body>
 		
 		<div class="container">
+			
 			<div class="row clearfix">
 				<div class="col-md-12 column" align="center">
 
-				Exibir as doações já realizadas e confirmadas. E entidades beneficiadas;
+				<ul class="nav nav-pills">
+  					<li role="presentation" class="active"><a href="#">Home</a></li>
+  					<li role="presentation"><a href="#">Profile</a></li>
+  					<li role="presentation"><a href="#">Messages</a></li>
+				</ul>
 				
 				</div>
 			</div>
