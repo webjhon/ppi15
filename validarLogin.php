@@ -9,7 +9,10 @@ if (isset($_POST['login_envia'])) {
     $buscar = "SELECT * FROM usuario  WHERE login = '$login' and senha = '$senha'";
     $verifica = mysql_query($buscar);
     if (mysql_num_rows($verifica) <= 0) {
-        echo '<script> alert("Login ou Senha incorreto")</script>';
+    echo "<script>
+        alert('Usuário ou senha incorreto.');
+        parent.location = 'index.php';
+    </script>";
     } else {
         //Aqui devo fazer a sessão
         

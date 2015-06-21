@@ -3,8 +3,7 @@
 	
 	<head>
 		<?php require_once('bootstrap_rel.php'); ?>
-                    <?php require_once('./validar_sessao.php'); ?>
-		<title>Logicando - feito  para evoluir</title>
+                 <title>Logicando - feito  para evoluir</title>
 	</head>
 	
 	
@@ -114,7 +113,7 @@
 			
 <!------------------------- Formulário de Doação ------------------------------>
 			
-			<form class="form-horizontal" id="formulario_doacao">
+<!-- Começa o Erro --><form class="form-horizontal" id="formulario_doacao">
 				<fieldset>
 					
 					<!-- Nome do formulário -->
@@ -130,7 +129,7 @@
 								<option value="2">APAE</option>
 							</select>
 						</div>
-					</div>
+					<!-- Termina o Erro --></div>
 					
 					<!-- Selecao valor -->
 					<div class="form-group">
@@ -186,7 +185,7 @@
 					</div>
 					
 				</fieldset>
-				
+                            </form>       
 			</div>	
 			
 			

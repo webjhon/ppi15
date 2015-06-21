@@ -42,6 +42,9 @@ input:not([type="submit"]):focus{
 #info_doacao{
 	border: 1px solid;
 	word-wrap: break-word;}
+#pagina_doador{
+    display:none;
+}
 
 	
 /* -- DOACAO -- */

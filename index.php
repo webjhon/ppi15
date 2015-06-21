@@ -3,6 +3,10 @@
 <html lang="pt-br">
     
 	<head>
+        <script type="text/javascript">
+            logado = "<?php echo $logado; ?>";
+    
+        </script>
         <?php require_once('bootstrap_rel.php'); ?> 
         <title>Logicando - feito  para evoluir</title>
     </head>
@@ -20,7 +24,7 @@
                 </div>
 
             </div>
-            <?php
+           <?php
             if ($logado)
                 include 'barra_login.php';
             else
@@ -40,7 +44,12 @@
                 <?php
                 include './doacao.php';
                 ?>
-            </div>            
+            </div>  
+            <div id="pagina_doador">
+                <?php
+                include './doador.php';
+                ?>
+            </div>  
             <div id="index_content">
                 <div class="row clearfix">
                     <div class="col-md-12 column">
