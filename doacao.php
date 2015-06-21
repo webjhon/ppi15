@@ -113,7 +113,7 @@
 			
 <!------------------------- Formulário de Doação ------------------------------>
 			
-<!-- Começa o Erro --><form class="form-horizontal" id="formulario_doacao">
+<!-- Começa o Erro --><form class="form-horizontal" id="formulario_doacao" action="boleto_bb.php">
 				<fieldset>
 					
 					<!-- Nome do formulário -->
@@ -136,10 +136,10 @@
 						<label class="col-md-4 control-label" for="seleciona_valor">Selecione o valor da doação</label>
 						<div class="col-md-6">
 							<select id="seleciona_valor" name="seleciona_valor" class="form-control">
-								<option value="1">R$ 15,00 (mínimo)</option>
-								<option value="2">R$ 30,00 (adesivos)</option>
-								<option value="3">R$ 50,00 (camiseta)</option>
-								<option value="4">R$ 80,00 (camiseta + adesivos)</option>
+								<option value="15">R$ 15,00 (mínimo)</option>
+								<option value="30">R$ 30,00 (adesivos)</option>
+								<option value="50">R$ 50,00 (camiseta)</option>
+								<option value="80">R$ 80,00 (camiseta + adesivos)</option>
 							</select>
 						</div>
 					</div>

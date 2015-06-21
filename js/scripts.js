@@ -26,6 +26,7 @@ $(document).ready(function(){
         $("#pagina_midia").hide("slow");
         $("#pagina_doacao").hide("slow");
         $("#pagina_projeto").show("slow");
+        $("#pagina_doador").hide("slow");
         $('html,body').stop().animate({scrollTop: $("#pagina_projeto").offset().top}, 2000);
         
 });
@@ -40,6 +41,7 @@ $("#link_midia").click(function(){
    $("#index_content").hide("slow");
    $("#pagina_projeto").hide("slow");
    $("#pagina_doacao").hide("slow");
+   $("#pagina_doador").hide("slow");
    $("#pagina_midia").show("slow");
    $('html,body').stop().animate({scrollTop: $("#pagina_midia").offset().top}, 2000);
 });
@@ -56,6 +58,7 @@ $("#link_doacao").click(function(){
    $("#index_content").hide("slow");
    $("#pagina_projeto").hide("slow");
    $("#pagina_midia").hide("slow");
+   $("#pagina_doador").hide("slow");
    $("#pagina_doacao").show("slow");
    $('html,body').stop().animate({scrollTop: $("#pagina_doacao").offset().top}, 2000);
 
@@ -69,6 +72,7 @@ $('[name="porque_doar"]').click(function(){
     $("#entidades").hide("slow");
     $("#entidades_midia").hide("slow");
     $("#porque_doar").show("slow");
+    $("#pagina_doador").hide("slow");
     $("#porque_doar_midia").show("slow");
     $('html,body').stop().animate({scrollTop: $("#porque_doar").offset().top}, 2000);
 });
@@ -95,6 +99,7 @@ $('[name="entidades"]').click(function(){
     $("#porque_doar_midia").hide("slow");
     $("#entidades").show("slow");
     $("#entidades_midia").show("slow");
+    $("#pagina_doador").hide("slow");
     $('html,body').stop().animate({scrollTop: $("#entidades").offset().top}, 2000);
 });
 
