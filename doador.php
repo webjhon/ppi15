@@ -63,7 +63,7 @@
 								<td>
 									<em class="glyphicon glyphicon-thumbs-up blue"></em></td>
 								<td>
-									<em class="glyphicon glyphicon-ok green"></em></td>
+									<em class="glyphicon glyphicon-ok green"></em> - Concluído</td>
 							</tr>
 							<tr>
 								<td>002</td>
@@ -72,7 +72,7 @@
 								<td>
 									<em class="glyphicon glyphicon-thumbs-up blue"></em></td>
 								<td>
-									<em class="glyphicon glyphicon-time"></em></td>
+									<em class="glyphicon glyphicon-time"></em> - Pagamento pendente</td>
 							</tr>
 							<tr>
 								<td>003</td>
@@ -81,7 +81,7 @@
 								<td>
 									<em class="glyphicon glyphicon-thumbs-up blue"></em></td>
 								<td>
-									<em class="glyphicon glyphicon-ok green"></em></td>
+									<em class="glyphicon glyphicon-plane"></em> - Enviado</td>
 							</tr>
 							<tr>
 								<td>004</td>
@@ -90,7 +90,7 @@
 								<td>
 									<em class="glyphicon glyphicon-remove red"></td>
 								<td>
-									<em class="glyphicon glyphicon-ok green"></em></td>
+									<em class="glyphicon glyphicon-ok green"></em> - Concluído</td>
 							</tr>
 							<tr>
 								<td>005</td>
@@ -99,7 +99,7 @@
 								<td>
 									<em class="glyphicon glyphicon-thumbs-up blue"></em></td>
 								<td>
-									<em class="glyphicon glyphicon-remove red"></em></td>
+									<em class="glyphicon glyphicon-remove red"></em> - Cancelada</td>
 							</tr>
 							</tbody>
 					</table>

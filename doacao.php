@@ -52,12 +52,14 @@
 						<p>As doações manterão nosso site no ar e proporcionarão a visualização das atividades realizadas no projeto, bem como um futuro repositório de jogos e atividades online.</p>
 							<?php include 'botao_doar.php' ?>
 					</div>
+					<br>
 					
 					<div id="entidades">
 						<h4>Entidades</h4>
 						<p>Escolhemos algumas entidades da nossa cidade para repassar parte das doações realizadas pelo site. Isso amplia a participação social do projeto e beneficia outra frentes que se preocupam com o desenvolvimento das crianças.</p>
 						<?php include 'botao_doar.php' ?>
 					</div>
+					<br>
 					
 					<div id="como_doar">
 						<h4>Como doar ?</h4>
@@ -69,37 +71,41 @@
 							</ul>
 						<?php include 'botao_doar.php' ?>
 					</div>
+					<br>
 					
 					<div id="brindes">
 						<h4>Brindes</h4>
 							<p>Através de uma doação ao projeto você pode receber uma camiseta de colaborador do projeto.</p>
 						<?php include 'botao_doar.php' ?>
 					</div>
+					<br>
 					
-				</div>	
-				
+				</div>
 <!------------------------- Imagens referente a cada texto do menu ------------------------------>
 				<div class="col-md-4 column" align="center">
 					<div class="img" id="porque_doar_midia">
 						<img class="img-thumbnail" src="img/doacao.png">
 					</div>
+					
 					<div class="img" id="entidades_midia">
 						<img src="img/casa_passagem.jpg" class="img-thumbnail" alt="AVOCAP" width="150" height="150">
 						<img src="img/apae.jpg" class="img-thumbnail" alt="APAE" width="150" height="150">
 					</div>
+					
 					<div class="img" id="como_doar_midia">
 						<img class="img-thumbnail" src="img/camiseta.png">
 					</div>
+					
 					<div class="img" id="brindes_midia">
 					<img src="img/camisetas_branco.png" class="img-thumbnail" data-toggle="modal" data-target=".bs-example-modal-lg">
 
-					<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  						<div class="modal-dialog modal-lg">
-    						<div class="modal-content">
-      							<img class="img-thumbnail" src="img/camisetas_branco.png">	
-    						</div>
-  						</div>
-					</div>
+						<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<img class="img-thumbnail" src="img/camisetas_branco.png">	
+								</div>
+							</div>
+						</div>
 
 					</div>
 				</div>
