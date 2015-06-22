@@ -25,8 +25,8 @@ $(document).ready(function(){
         $("#index_content").hide("slow");  
         $("#pagina_midia").hide("slow");
         $("#pagina_doacao").hide("slow");
-        $("#pagina_projeto").show("slow");
         $("#pagina_doador").hide("slow");
+        $("#pagina_projeto").show("slow");
         $('html,body').stop().animate({scrollTop: $("#pagina_projeto").offset().top}, 2000);
         
 });
