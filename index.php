@@ -16,14 +16,17 @@
             <img src="img/botao-topo.png" alt="subir">
        	</div>
         <div class="container">
-            <div class="row clearfix">
-
-                <div class="col-md-12 column" align="center">
-                    <img src="img/logo_400.png" id="logotst"> <!-- class="img-circle" alt="600x600" -->
-
+		<br>
+		
+<!----------  LOGO PÁGINA PRINCIPAL  ---------->
+			<div class="row clearfix">
+                <div class="col-md-12">
+                    <img src="img/logicando.png" class="img-responsive" alt="Logicando" id="logotst"> <!-- class="img-circle" alt="600x600" -->
                 </div>
-
             </div>
+			<br>
+<!----------------  FIM LOGO  ---------------->
+			
            <?php
             if ($logado)
                 include 'barra_login.php';
