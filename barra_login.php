@@ -35,7 +35,7 @@
                     
 					<ul class="nav navbar-nav navbar-form navbar-right">
 						
-                            <a href="desloga.php"><button type="button" class="btn btn-danger"><i class="glyphicon glyphicon-remove-sign red"> Sair </i></button></a>
+                            <a href="desloga.php"><button type="button" class="btn btn-danger"><i class="glyphicon glyphicon-remove-sign white"> Sair </i></button></a>
                             <button type="submit" class="btn btn-default">
                                 Bem vindo <?=$_SESSION['nome_usuario'];?>
                             </button>

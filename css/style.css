@@ -72,6 +72,9 @@ input:not([type="submit"]):focus{
 #formulario_doacao{
 	display:none;}
 
+.white{
+	color: white;}
+	
 .blue{
 	color: blue;}
 	
