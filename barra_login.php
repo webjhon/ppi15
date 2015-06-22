@@ -22,25 +22,19 @@
 						
 					</ul>
                     
-                        <!-- #############   CAMPO DE PESQUISA DENTRO DO MENU   #############
-
-                        <form class="navbar-form navbar-left" role="search">
-                            <div class="form-group">
-                                <input class="form-control" type="text">
-                            </div> <button type="submit" class="btn btn-default">Pesquisar</button>
-                        </form> 
-                        
-                        #############   CAMPO DE PESQUISA DENTRO DO MENU   #############
-                        -->
                     
 					<ul class="nav navbar-nav navbar-form navbar-right">
 						
-                            <a href="desloga.php"><button type="button" class="btn btn-danger"><i class="glyphicon glyphicon-remove-sign white"> Sair </i></button></a>
+                            <a href="desloga.php">
+								<button type="button" class="btn btn-danger">
+									<i class="glyphicon glyphicon-remove white">
+									</i> Sair
+								</button>
+							</a>
                             <button type="submit" class="btn btn-default">
                                 Bem vindo <?=$_SESSION['nome_usuario'];?>
                             </button>
 				        
-						
 					</ul>
 				</div>
 				
