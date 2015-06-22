@@ -33,6 +33,7 @@
             else
                 include 'barra_naologin.php';
             ?>
+			
             <div id="pagina_projeto">
                 <?php
                 include './projeto.php';
