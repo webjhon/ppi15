@@ -12,8 +12,8 @@
     </head>
 
     <body>
-        <div id="helper">
-            <img src="img/favicon.png" alt="subir">
+        <div id="helper" class="canto">
+            <img src="img/botao-topo.png" alt="subir">
        	</div>
         <div class="container">
             <div class="row clearfix">

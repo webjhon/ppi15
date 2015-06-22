@@ -143,6 +143,7 @@ $("#botao_doacao").click(function(){
     }
 });
 
+//O Código abaixo, gera um link de navegação usando âncoras (acho que é assim que chamamos # no html)
 
     //APAGAR ESTE CÓDIGO
 /*$(':input').change(function(){    

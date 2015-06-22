@@ -113,7 +113,7 @@
 			
 <!------------------------- Formulário de Doação ------------------------------>
 			
-<!-- Começa o Erro --><form class="form-horizontal" id="formulario_doacao" action="boleto_bb.php">
+<form class="form-horizontal" id="formulario_doacao" action="boleto_bb.php" method="POST">
 				<fieldset>
 					
 					<!-- Nome do formulário -->
@@ -129,7 +129,7 @@
 								<option value="2">APAE</option>
 							</select>
 						</div>
-					<!-- Termina o Erro --></div>
+					</div>
 					
 					<!-- Selecao valor -->
 					<div class="form-group">
@@ -180,7 +180,7 @@
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="gera_doacao"></label>
 						<div class="col-md-4">
-							<button id="gera_doacao" name="gera_doacao" class="btn btn-primary">Gerar doação</button>
+							<button id="gera_doacao" name="gera_doacao" class="btn btn-primary" value="enviado">Gerar doação</button>
 						</div>
 					</div>
 					
