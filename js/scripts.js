@@ -2,7 +2,7 @@ $(document).ready(function(){
 //Ao clicar no botão LOGIN/CADASTRO o usuário é levado para uma página com ambas as opções.    
     $('[name="botao_logarecadastrar"]').click(function(){
         $("#div_cadastro").hide("slow");
-        $("#div_cadastro_login").show();
+        $("#div_cadastro_login").show("slow");
         $('html,body').stop().animate({scrollTop: $("#div_cadastro_login").offset().top}, 2000);
     });
 //Usuário está na pagina de login, clica no cadastro some a pagina de login e vem a pagina de cadastro.    
@@ -131,14 +131,14 @@ $('[name="brindes"]').click(function(){
 //O Código abaixo, identifica se o usuário já esta ou não logado antes de direcionar ao módulo de doação
  
 
-$("#botao_doacao").click(function(){
+$('.doar').click(function(){
      if(logado == true){
     $("#formulario_doacao").show("slow");
     $('html,body').stop().animate({scrollTop: $("#formulario_doacao").offset().top}, 2000);
     
   }
   else {
-    $("#div_cadastro_login").show();
+    $("#div_cadastro_login").show("slow");
     $('html,body').stop().animate({scrollTop: $("#div_cadastro_login").offset().top}, 2000);
     }
 });
