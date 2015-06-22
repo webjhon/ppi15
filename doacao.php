@@ -12,7 +12,7 @@
 <!-- Primeira linha do bootstrap -->		
 		<div class="container">
 			<div class="row clearfix" id="id_doacoes">
-<!------------------------- GRID para o Menu com informações sobre doacao ------------------------------>
+<!------------------------- GRID Menu com informações doacao ------------------------------>
 				<div class="col-md-2 column" align="left"><!-- Abre div de grid tamanho 2 -->
 					<div class="btn-group btn-group-md"> <!-- Abre div de grupo de botoes -->
 
@@ -82,6 +82,7 @@
 				</div>
 <!------------------------- Imagens referente a cada texto do menu ------------------------------>
 				<div class="col-md-4 column" align="center">
+				
 					<div class="img" id="porque_doar_midia">
 						<img class="img-thumbnail" src="img/doacao.png">
 					</div>
@@ -92,7 +93,7 @@
 					</div>
 					
 					<div class="img" id="como_doar_midia">
-						<img class="img-thumbnail" src="img/camiseta.png">
+						<img src="img/eu_quero_ajudar.png" class="img-thumbnail" width="150" height="150">
 					</div>
 					
 					<div class="img" id="brindes_midia">
