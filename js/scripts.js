@@ -49,7 +49,16 @@ $("#link_midia").click(function(){
 // Código de funcionamento do botão UP, que acompanha o usuário durante a navegação na página.
 $("#helper").click(function(){
       $('html, body').stop().animate({scrollTop:0}, 'slow');
+      
 });
+
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 10) {
+        $("#helper").show("slow");
+    }else{
+        $("#helper").hide("slow");
+    }
+}); 
 
 //Ai clicar no botão DOAÇÃO, a página da espaço para o conteúdo de mídia ser apresentado.
 $("#link_doacao").click(function(){

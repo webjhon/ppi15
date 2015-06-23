@@ -31,7 +31,9 @@ input:not([type="submit"]):focus{
 #helper{
 	position: fixed;
 	margin-top: 43%;
-	margin-left:93%;}
+	margin-left:93%;
+        display: none;
+}
 
 .tamanho{
 	max-height: 50%;
