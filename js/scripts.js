@@ -65,6 +65,8 @@ $("#link_doacao").click(function(){
 });
 //O código abaixo, faz com que o menu da pagina doação altere entre as opções do usuário. 
 $('[name="porque_doar"]').click(function(){
+    $("#div_cadastro").hide("slow");
+    $("#div_cadastro_login").hide("slow");
     $("#brindes").hide("slow");
     $("#brindes_midia").hide("slow");
     $("#como_doar").hide("slow");
@@ -83,7 +85,7 @@ $("#link_doador").click(function(){
    $("#index_content").hide("slow");
    $("#pagina_projeto").hide("slow");
    $("#pagina_midia").hide("slow");
-    $("#pagina_doacao").hide("slow");
+   $("#pagina_doacao").hide("slow");
    $("#pagina_doador").show("slow");
    $('html,body').stop().animate({scrollTop: $("#pagina_doador").offset().top}, 2000);
 
@@ -91,6 +93,8 @@ $("#link_doador").click(function(){
 //O código abaixo é refente ao botão de nome ENTIDADE, faz com que seu conteúdo seja exibido e os outros fiquem invisíveis.
 
 $('[name="entidades"]').click(function(){
+    $("#div_cadastro").hide("slow");
+    $("#div_cadastro_login").hide("slow");
     $("#brindes").hide("slow");
     $("#brindes_midia").hide("slow");
     $("#como_doar").hide("slow");
@@ -105,6 +109,8 @@ $('[name="entidades"]').click(function(){
 
 //O código abaixo é refente ao botão de nome COMO DOAR, faz com que seu conteúdo seja exibido e os outros fiquem invisíveis.
 $('[name="como_doar"]').click(function(){
+    $("#div_cadastro").hide("slow");
+    $("#div_cadastro_login").hide("slow");
     $("#brindes").hide("slow");
     $("#brindes_midia").hide("slow");
     $("#porque_doar").hide("slow");
@@ -117,6 +123,8 @@ $('[name="como_doar"]').click(function(){
 });
 //O código abaixo é refente ao botão de nome BRINDES, faz com que seu conteúdo seja exibido e os outros fiquem invisíveis.
 $('[name="brindes"]').click(function(){
+    $("#div_cadastro").hide("slow");
+    $("#div_cadastro_login").hide("slow");
     $("#porque_doar").hide("slow");
     $("#porque_doar_midia").hide("slow");
     $("#entidades").hide("slow");
