@@ -1,9 +1,9 @@
 <?php
 
 $host_mysql = "localhost";
-$user_mysql = "xxxxxxxxxxx";
-$password_mysql = "xxxxxxxxxxxxxx";
-$banco_mysql = "xxxxxxxxxxx";
+$user_mysql = "logica_ppi";
+$password_mysql = "logicando2306";
+$banco_mysql = "logica_ppi";
 
 
 $conecta = mysql_connect($host_mysql, $user_mysql, $password_mysql) or print(mysql_error());
