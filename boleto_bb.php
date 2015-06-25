@@ -49,7 +49,7 @@ $dadosboleto["valor_boleto"] = $valor_boleto; 	// Valor do Boleto - REGRA: Com v
 // DADOS DO SEU CLIENTE
 $dadosboleto["sacado"] = $_SESSION['nome_usuario'];
 $dadosboleto["endereco1"] = $_POST['end_centrega'];
-$dadosboleto["endereco2"] = "Cidade - Estado -  CEP: 00000-000";
+$dadosboleto["endereco2"] = $_POST['cidade_entrega']." - ".$_POST['uf_entrega'];
 
 // INFORMACOES PARA O CLIENTE
 $dadosboleto["demonstrativo1"] = "Pagamento de Doação ao Projeto Logicando";
