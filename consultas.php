@@ -27,12 +27,7 @@ else {
 }
 }
 
-if (consultaLogin("web")==0){
-    echo "Login Disponível";
-}
-else {
-    echo "Login Indisponível";
-}
+
 
 
 

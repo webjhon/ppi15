@@ -6,7 +6,7 @@
 	<head>
         <script type="text/javascript">
             logado = "<?php echo $logado; ?>";
-                
+                    
         </script>
         <?php require_once('bootstrap_rel.php'); ?> 
         <title>Logicando - feito  para evoluir</title>

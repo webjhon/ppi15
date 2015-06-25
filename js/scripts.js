@@ -161,11 +161,12 @@ $('.doar').click(function(){
 });
 
 //O Código abaixo, gera um link de navegação usando âncoras (acho que é assim que chamamos # no html)
-
-    //APAGAR ESTE CÓDIGO
-/*$(':input').change(function(){    
-       alert("testando");
-    }); */ 
-    //TesteTesteTeste
+    //Não implementado
+//O código abaixo, faz a validação em tempo real dos formulários.
+$('[name="cad_email"]').change(function(){    
+           
+       alert(disp_email);
+ }); 
+ 
 });
 
