@@ -142,6 +142,8 @@
 								<option value="50">R$ 50,00 (camiseta)</option>
 								<option value="80">R$ 80,00 (camiseta + adesivos)</option>
 							</select>
+                                                    <label class="col-md-4 control-label" for="end_centrega">Endereço de Entrega</label>  
+                                                    <input id="end_centrega" name="end_centrega" placeholder="Endereço" class="form-control input-md" required="" type="text">
 						</div>
 					</div>
 					

@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php require_once('./validar_sessao.php'); ?>
+<?php if($logado) {
+    
+?>
 <html>
 	
 	<head>
@@ -114,4 +118,11 @@
 	
 	</body>
 		
-</html>														
+</html>	
+<?php 
+
+}
+
+else {
+    header("Location: index.php");
+}

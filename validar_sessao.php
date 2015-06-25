@@ -9,4 +9,4 @@ else {
     session_destroy();
     
 }
-?>
+    

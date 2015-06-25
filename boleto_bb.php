@@ -1,4 +1,5 @@
 ﻿<?php
+require_once './validar_sessao.php';
 // +----------------------------------------------------------------------+
 // | BoletoPhp - Vers? Beta                                              |
 // +----------------------------------------------------------------------+
@@ -46,8 +47,8 @@ $dadosboleto["data_processamento"] = date("d/m/Y"); // Data de processamento do 
 $dadosboleto["valor_boleto"] = $valor_boleto; 	// Valor do Boleto - REGRA: Com v?gula e sempre com duas casas depois da virgula
 
 // DADOS DO SEU CLIENTE
-$dadosboleto["sacado"] = "Nome do seu Cliente";
-$dadosboleto["endereco1"] = "Endere? do seu Cliente";
+$dadosboleto["sacado"] = $_SESSION['nome_usuario'];
+$dadosboleto["endereco1"] = $_POST['end_centrega'];
 $dadosboleto["endereco2"] = "Cidade - Estado -  CEP: 00000-000";
 
 // INFORMACOES PARA O CLIENTE
