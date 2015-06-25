@@ -26,14 +26,3 @@ else {
         return true; //Neste caso ele vai retornar 1, o que significa que o login esta indisponível.
 }
 }
-
-if (consultaLogin("web")==0){
-    echo "Login Disponível";
-}
-else {
-    echo "Login Indisponível";
-}
-
-
-
-

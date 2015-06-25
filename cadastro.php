@@ -78,7 +78,7 @@
 						</div>
 					</div>
 					
-					<!-- Confirmação do cadastro da senha de acesso-->
+					<!-- Confirmação do cadastro da senha de acesso ------------------
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="cad_passwd2">Repita a senha</label>
 						<div class="col-md-5">
@@ -86,8 +86,10 @@
 							<span class="help-block">Repita a senha</span>
 						</div>
 					</div>
+					----------------------------------------------------------------->
 					
-					<!-- Seleção de tipo -->
+					
+					<!-- Seleção de tipo --------------------------------------------
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="cad_tipo">Você é</label>
 						<div class="col-md-5">
@@ -98,6 +100,7 @@
 							</select>
 						</div>
 					</div>
+					----------------------------------------------------------------->
 					
 					<!-- Botões -->
 					<div class="form-group">
