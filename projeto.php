@@ -38,25 +38,17 @@
 	<body>
         
 		<h2>
-			O projeto
+		O projeto
 		</h2>
 		
+		<div class="row">
+			<div class="col-md-12 column" align="center">
 		
-		<p>
-			Ainda compor texto para apresentação do projeto aos interessados.
-		</p>
+				Aqui vai o vídeo
 		
-		<p>
-			Preenher com imagens introdutórias e referentes ao conteúdo apresentado.
-		</p>
-		
-		<p>
-			<a class="btn" href="#">View details »</a>
-		</p>
-		
-		<div>
-			<!-- Desabilitado <iframe src="https://prezi.com/embed/dzmddth6j2bt/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=eyJleHBlcmltZW50cyI6eyJjdGEiOlstMiwwXSwiZml0LWxvYWR1aSI6Wy0yLDBdfSwicGFnZV92aWV3X2lkIjoiMTI5NDEzOTBkMDkxNzdiNSJ9&amp;landing_sign=UxE%2F7JfMx%2F2Puk%252BSaNd5uW%252BRNgcWUIqFWdt3tnzD4Nw%253D#" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="" id="iframe_container" width="550" frameborder="0" height="400"></iframe>-->
+			</div>
 		</div>
+		
 					
     </body>
 </html>
