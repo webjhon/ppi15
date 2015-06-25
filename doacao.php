@@ -142,36 +142,38 @@
 								<option value="50">R$ 50,00 (camiseta)</option>
 								<option value="80">R$ 80,00 (camiseta + adesivos)</option>
 							</select>
+                                                    <label class="col-md-4 control-label" for="end_centrega">Endereço de Entrega</label>  
+                                                    <input id="end_centrega" name="end_centrega" placeholder="Endereço" class="form-control input-md" required="" type="text">
 						</div>
 					</div>
 					
-					<!-- Endereço de entrega -->
-					<div class="form-group">
-						<label class="col-md-4 control-label" for="end_centrega">Endereço</label>
-						<div class="col-md-6">
-							<input id="end_centrega" name="end_centrega" placeholder="Endereço" class="form-control input-md" required="" type="text"><br>
-						</div>
-							
-						<label class="col-md-4 control-label" for="cidade_entrega">Cidade</label>
-						<div class="col-md-6">
-							<input id="cidade_entrega" name="cidade_entrega" placeholder="Cidade" class="form-control input-md" required="" type="text"><br>
-						</div>
-							
-						<label class="col-md-4 control-label" for="uf_entrega">Estado</label>
-						<div class="col-md-6">
-							<input id="uf_entrega" name="uf_entrega" placeholder="Estado" class="form-control input-md" required="" type="text"><br>
-						</div>
-					</div>
 					
 					<!-- Selecao Banco -->
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="bancos">Selecione o banco preferencial</label>
 						<div class="col-md-4">
-							
+							<div class="radio">
+								<label for="bancos-0">
+									<input name="bancos" id="bancos-0" value="1" checked="checked" type="radio">
+									CEF (CAIXA)
+								</label>
+							</div>
 							<div class="radio">
 								<label for="bancos-1">
 									<input name="bancos" id="bancos-1" value="2" type="radio">
 									Banco do Brasil
+								</label>
+							</div>
+							<div class="radio">
+								<label for="bancos-2">
+									<input name="bancos" id="bancos-2" value="3" type="radio">
+									Banrisul
+								</label>
+							</div>
+							<div class="radio">
+								<label for="bancos-3">
+									<input name="bancos" id="bancos-3" value="4" type="radio">
+									Bradesco
 								</label>
 							</div>
 						</div>
