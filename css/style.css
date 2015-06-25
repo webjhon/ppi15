@@ -18,9 +18,9 @@
     display:none;}
 
 input:not([type="submit"]):focus{
-	color:black;
+	color:#fff;
 	font-weight: bold;
-    background-color: #79f942;}
+    background-color: #33ab35;}
 
 #pagina_projeto{
     display:none;}
@@ -79,9 +79,6 @@ input:not([type="submit"]):focus{
 
 .white{
 	color: white;}
-
-.black{
-	color: black;}
 	
 .blue{
 	color: blue;}
