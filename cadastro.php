@@ -46,7 +46,7 @@
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="cad_nome">Nome completo</label>  
 						<div class="col-md-5">
-                                                    <input id="cad_nome" name="cad_nome" placeholder="Ex: Fulano de Tal" class="form-control input-md" required="" type="text">
+							<input id="cad_nome" name="cad_nome" placeholder="Ex: Fulano de Tal" class="form-control input-md" required="" type="text">
 							<span class="help-block">Insira o seu nome completo</span>  
 						</div>
 					</div>
@@ -55,8 +55,8 @@
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="cad_email">Insira seu email</label>  
 						<div class="col-md-5">
-							<input id="cad_email" name="cad_email" placeholder="endereço de email" class="form-control input-md" required="" type="text"><div id="valida"> OK </div>
-							<span class="help-block">Insira um endereço de email</span> 
+							<input id="cad_email" name="cad_email" placeholder="endereço de email" class="form-control input-md" required="" type="text">
+							<span class="help-block">Insira um endereço de email</span>  
 						</div>
 					</div>
 					
@@ -78,7 +78,7 @@
 						</div>
 					</div>
 					
-					<!-- Confirmação do cadastro da senha de acesso-->
+					<!-- Confirmação do cadastro da senha de acesso ------------------
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="cad_passwd2">Repita a senha</label>
 						<div class="col-md-5">
@@ -86,8 +86,10 @@
 							<span class="help-block">Repita a senha</span>
 						</div>
 					</div>
+					----------------------------------------------------------------->
 					
-					<!-- Seleção de tipo -->
+					
+					<!-- Seleção de tipo --------------------------------------------
 					<div class="form-group">
 						<label class="col-md-4 control-label" for="cad_tipo">Você é</label>
 						<div class="col-md-5">
@@ -98,6 +100,7 @@
 							</select>
 						</div>
 					</div>
+					----------------------------------------------------------------->
 					
 					<!-- Botões -->
 					<div class="form-group">

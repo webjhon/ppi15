@@ -1,6 +1,3 @@
-#valida{
-    display:none;
-}
 #div_cadastro_login {
     display: none;}
 
@@ -18,9 +15,9 @@
     display:none;}
 
 input:not([type="submit"]):focus{
-	color:#fff;
+	color:black;
 	font-weight: bold;
-    background-color: #33ab35;}
+    background-color: #79f942;}
 
 #pagina_projeto{
     display:none;}
@@ -79,6 +76,9 @@ input:not([type="submit"]):focus{
 
 .white{
 	color: white;}
+
+.black{
+	color: black;}
 	
 .blue{
 	color: blue;}
