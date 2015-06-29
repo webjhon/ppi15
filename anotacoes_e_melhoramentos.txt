@@ -1,0 +1,13 @@
+- Cancelar Commit
+
+Basta clicar com o botao direito no arquivo a ser atualizado (no lado onde aparecem as commits) e escolher a opçao DISCARD CHANGES. Isso e util pois sempre ao alterar partes do projeto usando netbeans, ele grava registros das operacoes feitas mesmo que nao salvas, e isso acaba se tornando chato e gerando commits desnecessarias.
+
+Criei este arquivo apeans para gerar uma commit com ele, e irei colocar esse mesmo texto na commit, assim fica mais facil quando esquecermos de como cancelar uma commit e so olhar o historico das mesmas.
+
+-----------------------------------------------------------------------------------------------------------
+
+- Efeitos jQuery
+http://www.mxmasters.com.br/20-exemplos-sensacionais-de-efeitos-em-imagens-com-jquery/
+
+-----------------------------------------------------------------------------------------------------------
+
